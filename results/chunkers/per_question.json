@@ -1,0 +1,3182 @@
+{
+  "In what year did the Linux kernel project start using BitKeeper?": [
+    {
+      "chunker": "paragraph",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 1,
+          "distance": 0.2205,
+          "hit": true,
+          "text": "In 2002, the Linux kernel project began using a proprietary DVCS called BitKeeper."
+        },
+        {
+          "page": 1,
+          "distance": 0.4639,
+          "hit": false,
+          "text": "A Short History of Git As with many great things in life, Git began with a bit of creative destruction and fiery controversy. The Linux kernel is an open source"
+        },
+        {
+          "page": 1,
+          "distance": 0.543,
+          "hit": false,
+          "text": "commercial company that developed BitKeeper broke down, and the tool’s free-of-charge status was revoked. This prompted the Linux development community (and in "
+        }
+      ],
+      "answer": "In 2002.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "recursive",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 1,
+          "distance": 0.2894,
+          "hit": true,
+          "text": "The Linux kernel is an open source software project of fairly large scope.                              Snapshots, Not Differences\nthe Linux kernel maintenance "
+        },
+        {
+          "page": 1,
+          "distance": 0.4994,
+          "hit": false,
+          "text": "commercial company that developed BitKeeper broke down, and the tool’s free-of-charge status\nwas revoked. This prompted the Linux development community (and in "
+        },
+        {
+          "page": 1,
+          "distance": 0.5601,
+          "hit": false,
+          "text": "During the early years of\n\n\n\n\n\n\n\n\n\n\n                        In 2005, the relationship between the community that developed the Linux kernel and the\n\n\n\n\n\n\n\n\n\n\n\n\n"
+        }
+      ],
+      "answer": "In 2002, the Linux kernel project began using BitKeeper.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "character",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 1,
+          "distance": 0.325,
+          "hit": true,
+          "text": "the software were passed around as patches\nand archived files. In 2002, the Linux kernel project began using a proprietary DVCS called\nBitKeeper.\n\n\n\ncommercial "
+        },
+        {
+          "page": 1,
+          "distance": 0.5386,
+          "hit": false,
+          "text": "(and in particular Linus Torvalds,\nthe creator of Linux) to develop their own tool based on some of the lessons they learned while\nusing BitKeeper.\n\n  •\n\n  •\n\n "
+        },
+        {
+          "page": 1,
+          "distance": 0.5601,
+          "hit": false,
+          "text": "During the early years of\n\n\n\n\n\n\n\n\n\n\n                        In 2005, the relationship between the community that developed the Linux kernel and the\n\n\n\n\n\n\n\n\n\n\n\n\n"
+        }
+      ],
+      "answer": "In 2002, the Linux kernel project began using BitKeeper.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "semantic",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 1,
+          "distance": 0.4716,
+          "hit": true,
+          "text": "During the early years of\n\n\n\n\n\n\n\n\n\n\n                        In 2005, the relationship between the community that developed the Linux kernel and the\n\n\n\n\n\n\n\n\n\n\n\n\n"
+        },
+        {
+          "page": 7,
+          "distance": 0.6137,
+          "hit": false,
+          "text": "You can get it via the kernel.org site, at https://www.kernel.org/pub/\nsoftware/scm/git, or the mirror on the GitHub website, at https://github.com/git/git/tags"
+        },
+        {
+          "page": 13,
+          "distance": 0.672,
+          "hit": false,
+          "text": "See Git Internals for"
+        }
+      ],
+      "answer": "In 2002, the Linux kernel project began using BitKeeper.",
+      "answer_correct": true
+    }
+  ],
+  "Why did the Linux community stop using BitKeeper?": [
+    {
+      "chunker": "paragraph",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 1,
+          "distance": 0.3596,
+          "hit": true,
+          "text": "commercial company that developed BitKeeper broke down, and the tool’s free-of-charge status was revoked. This prompted the Linux development community (and in "
+        },
+        {
+          "page": 1,
+          "distance": 0.4657,
+          "hit": false,
+          "text": "In 2002, the Linux kernel project began using a proprietary DVCS called BitKeeper."
+        },
+        {
+          "page": 1,
+          "distance": 0.5969,
+          "hit": false,
+          "text": "A Short History of Git As with many great things in life, Git began with a bit of creative destruction and fiery controversy. The Linux kernel is an open source"
+        }
+      ],
+      "answer": "The Linux development community stopped using BitKeeper because the commercial company that developed it broke down, and the tool’s free-of-charge status was revoked.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "recursive",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 1,
+          "distance": 0.3472,
+          "hit": true,
+          "text": "commercial company that developed BitKeeper broke down, and the tool’s free-of-charge status\nwas revoked. This prompted the Linux development community (and in "
+        },
+        {
+          "page": 1,
+          "distance": 0.4796,
+          "hit": false,
+          "text": "The Linux kernel is an open source software project of fairly large scope.                              Snapshots, Not Differences\nthe Linux kernel maintenance "
+        },
+        {
+          "page": 3,
+          "distance": 0.6128,
+          "hit": false,
+          "text": "Git Has Integrity"
+        }
+      ],
+      "answer": "The Linux development community stopped using BitKeeper because the commercial company that developed it broke down, and the tool’s free-of-charge status was revoked.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "character",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 1,
+          "distance": 0.3562,
+          "hit": true,
+          "text": "the software were passed around as patches\nand archived files. In 2002, the Linux kernel project began using a proprietary DVCS called\nBitKeeper.\n\n\n\ncommercial "
+        },
+        {
+          "page": 1,
+          "distance": 0.6187,
+          "hit": false,
+          "text": "(and in particular Linus Torvalds,\nthe creator of Linux) to develop their own tool based on some of the lessons they learned while\nusing BitKeeper.\n\n  •\n\n  •\n\n "
+        },
+        {
+          "page": 5,
+          "distance": 0.6305,
+          "hit": false,
+          "text": "nstalling on several different Unix distributions on the\nGit website, at https://git-scm.com/download/linux."
+        }
+      ],
+      "answer": "The commercial company that developed BitKeeper broke down, and the tool’s free-of-charge status was revoked.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "semantic",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 1,
+          "distance": 0.5887,
+          "hit": true,
+          "text": "During the early years of\n\n\n\n\n\n\n\n\n\n\n                        In 2005, the relationship between the community that developed the Linux kernel and the\n\n\n\n\n\n\n\n\n\n\n\n\n"
+        },
+        {
+          "page": 13,
+          "distance": 0.6289,
+          "hit": false,
+          "text": "See Git Internals for"
+        },
+        {
+          "page": 7,
+          "distance": 0.677,
+          "hit": false,
+          "text": "You can get it via the kernel.org site, at https://www.kernel.org/pub/\nsoftware/scm/git, or the mirror on the GitHub website, at https://github.com/git/git/tags"
+        }
+      ],
+      "answer": "The Linux development community stopped using BitKeeper because the commercial company that developed it revoked its free-of-charge status.",
+      "answer_correct": true
+    }
+  ],
+  "How does Git store data differently from delta-based version control systems?": [
+    {
+      "chunker": "paragraph",
+      "rank_of_evidence": 6,
+      "top3": [
+        {
+          "page": 1,
+          "distance": 0.3028,
+          "hit": false,
+          "text": "The major difference between Git and any other VCS (Subversion and friends included) is the way Git thinks about its data. Conceptually, most other systems stor"
+        },
+        {
+          "page": 2,
+          "distance": 0.3595,
+          "hit": false,
+          "text": "14 Figure 4. Storing data as changes to a base version of each file Git doesn’t think of or store its data this way. Instead, Git thinks of its data more like a"
+        },
+        {
+          "page": 2,
+          "distance": 0.3891,
+          "hit": false,
+          "text": "To be efficient, if files have not changed, Git doesn’t store the file again, just a link to the previous identical file it has already stored. Git thinks about"
+        }
+      ],
+      "answer": "According to the context, Git stores data more like a series of snapshots of a miniature filesystem, and it doesn't store files again if they haven't changed, just links to previous identical files. This is different from systems that store information as a list of file-based changes.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "recursive",
+      "rank_of_evidence": 5,
+      "top3": [
+        {
+          "page": 1,
+          "distance": 0.3096,
+          "hit": false,
+          "text": "The major difference between Git and any other VCS (Subversion and friends included) is the way\nGit thinks about its data. Conceptually, most other systems stor"
+        },
+        {
+          "page": 2,
+          "distance": 0.3559,
+          "hit": false,
+          "text": "Git doesn’t think of or store its data this way. Instead, Git thinks of its data more like a series of\nsnapshots of a miniature filesystem. With Git, every time"
+        },
+        {
+          "page": 1,
+          "distance": 0.3815,
+          "hit": false,
+          "text": "store as a set of files and the changes made to each file over time (this is commonly described as\ndelta-based version control)."
+        }
+      ],
+      "answer": "Git thinks of its data more like a series of snapshots of a miniature filesystem.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "character",
+      "rank_of_evidence": 6,
+      "top3": [
+        {
+          "page": 1,
+          "distance": 0.325,
+          "hit": false,
+          "text": "imilar to these other VCSs, Git stores and thinks about\ninformation in a very different way, and understanding these differences will help you avoid\nbecoming co"
+        },
+        {
+          "page": 1,
+          "distance": 0.3561,
+          "hit": false,
+          "text": "its data. Conceptually, most other systems store information as a list of file-based\nchanges. These other systems (CVS, Subversion, Perforce, and so on) think o"
+        },
+        {
+          "page": 2,
+          "distance": 0.3684,
+          "hit": false,
+          "text": "nk to the previous identical file it has already stored. Git thinks about its data more like a\nstream of snapshots.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis is an important d"
+        }
+      ],
+      "answer": "Git thinks about its data more like a stream of snapshots, while other systems (like CVS, Subversion, Perforce) store information as a list of file-based changes.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "semantic",
+      "rank_of_evidence": 2,
+      "top3": [
+        {
+          "page": 1,
+          "distance": 0.3412,
+          "hit": false,
+          "text": "So, what is Git in a nutshell? This is an important section to absorb, because if you understand what\nGit is and the fundamentals of how it works, then using Gi"
+        },
+        {
+          "page": 2,
+          "distance": 0.356,
+          "hit": true,
+          "text": "14 Figure 4. Storing data as changes to a base version of each file\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGit doesn’t think of or store its "
+        },
+        {
+          "page": 2,
+          "distance": 0.4513,
+          "hit": false,
+          "text": "It makes Git reconsider\nalmost every aspect of version control that most other systems copied from the previous\ngeneration. This makes Git more like a mini file"
+        }
+      ],
+      "answer": "Git stores data as a series of snapshots of a miniature filesystem, while delta-based version control systems (like CVS, Subversion, and Perforce) store information as a list of file-based changes.",
+      "answer_correct": true
+    }
+  ],
+  "What mechanism does Git use for checksumming?": [
+    {
+      "chunker": "paragraph",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 3,
+          "distance": 0.2596,
+          "hit": true,
+          "text": "The mechanism that Git uses for this checksumming is called a SHA-1 hash. string composed of hexadecimal characters (0–9 and a–f) and calculated based on the co"
+        },
+        {
+          "page": 3,
+          "distance": 0.3544,
+          "hit": false,
+          "text": "Git Has Integrity Everything in Git is checksummed before it is stored and is then referred to by that checksum. This means it’s impossible to change the conten"
+        },
+        {
+          "page": 3,
+          "distance": 0.4694,
+          "hit": false,
+          "text": "You can’t lose information in transit or get file corruption without Git being able to detect it."
+        }
+      ],
+      "answer": "Git uses a SHA-1 hash for its checksumming mechanism.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "recursive",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 3,
+          "distance": 0.28,
+          "hit": true,
+          "text": "The mechanism that Git uses for this checksumming is called a SHA-1 hash.\nstring composed of hexadecimal characters (0–9 and a–f) and calculated based on the co"
+        },
+        {
+          "page": 3,
+          "distance": 0.3278,
+          "hit": false,
+          "text": "Everything in Git is checksummed before it is stored and is then referred to by that checksum. This\nmeans it’s impossible to change the contents of any file or "
+        },
+        {
+          "page": 3,
+          "distance": 0.4182,
+          "hit": false,
+          "text": "Git Has Integrity"
+        }
+      ],
+      "answer": "Git uses a SHA-1 hash for checksumming.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "character",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 3,
+          "distance": 0.2383,
+          "hit": true,
+          "text": "thout Git knowing about it.\nThis functionality is built into Git at the lowest levels and is integral to its philosophy. You can’t lose\ninformation in transit o"
+        },
+        {
+          "page": 3,
+          "distance": 0.4549,
+          "hit": false,
+          "text": "composed of hexadecimal characters (0–9 and a–f) and calculated based on the contents of a\nfile or directory structure in Git. A SHA-1 hash looks something like"
+        },
+        {
+          "page": 3,
+          "distance": 0.4833,
+          "hit": false,
+          "text": ". In fact, Git\nstores everything in its database not by file name but by the hash value of its contents.\n\nGit Generally Only Adds Data\n\nWhen you do actions in G"
+        }
+      ],
+      "answer": "Git uses a mechanism called a SHA-1 hash for checksumming.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "semantic",
+      "rank_of_evidence": 2,
+      "top3": [
+        {
+          "page": 13,
+          "distance": 0.3789,
+          "hit": false,
+          "text": "See Git Internals for"
+        },
+        {
+          "page": 3,
+          "distance": 0.4776,
+          "hit": true,
+          "text": "In many other systems, doing so is either impossible or\npainful. In Perforce, for example, you can’t do much when you aren’t connected to the server; in\nSubvers"
+        },
+        {
+          "page": 10,
+          "distance": 0.5062,
+          "hit": false,
+          "text": "In this case, Git uses the last value for each\nunique key it sees. You can also check what Git thinks a specific key’s value is by typing git config <key>:\n\n\n  "
+        }
+      ],
+      "answer": "Git uses a SHA-1 hash for its checksumming mechanism.",
+      "answer_correct": true
+    }
+  ],
+  "What are the three main states that files can reside in within Git?": [
+    {
+      "chunker": "paragraph",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 3,
+          "distance": 0.1989,
+          "hit": true,
+          "text": "The Three States Pay attention now — here is the main thing to remember about Git if you want the rest of your learning process to go smoothly. Git has three ma"
+        },
+        {
+          "page": 15,
+          "distance": 0.3565,
+          "hit": false,
+          "text": "Remember that each file in your working directory can be in one of two states: tracked or untracked. Tracked files are files that were in the last snapshot, as "
+        },
+        {
+          "page": 15,
+          "distance": 0.4162,
+          "hit": false,
+          "text": "If you Checking the Status of Your Files The main tool you use to determine which files are in which state is the git status command. run this command directly "
+        }
+      ],
+      "answer": "According to the context, the three main states that files can reside in within Git are: modified, staged, and committed.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "recursive",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 3,
+          "distance": 0.2025,
+          "hit": true,
+          "text": "The Three States\n\nPay attention now — here is the main thing to remember about Git if you want the rest of your\nlearning process to go smoothly. Git has three m"
+        },
+        {
+          "page": 15,
+          "distance": 0.3486,
+          "hit": false,
+          "text": "Remember that each file in your working directory can be in one of two states: tracked or\nuntracked. Tracked files are files that were in the last snapshot, as "
+        },
+        {
+          "page": 18,
+          "distance": 0.4143,
+          "hit": false,
+          "text": "What the heck? Now CONTRIBUTING.md is listed as both staged and unstaged. How is that possible? It\nturns out that Git stages a file exactly as it is when you ru"
+        }
+      ],
+      "answer": "The three main states that files can reside in within Git are modified, staged, and committed.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "character",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 3,
+          "distance": 0.1735,
+          "hit": true,
+          "text": "o go smoothly. Git has three main states that your files can reside in: modified,\nstaged, and committed:"
+        },
+        {
+          "page": 3,
+          "distance": 0.3693,
+          "hit": false,
+          "text": "without the danger of severely\nscrewing things up. For a more in-depth look at how Git stores its data and how you can recover\ndata that seems lost, see Undoing"
+        },
+        {
+          "page": 15,
+          "distance": 0.3715,
+          "hit": false,
+          "text": "ach time the project reaches a state\nyou want to record.\n\nRemember that each file in your working directory can be in one of two states: tracked or\nuntracked. T"
+        }
+      ],
+      "answer": "Git has three main states that your files can reside in: modified, staged, and committed.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "semantic",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 3,
+          "distance": 0.3894,
+          "hit": true,
+          "text": "In many other systems, doing so is either impossible or\npainful. In Perforce, for example, you can’t do much when you aren’t connected to the server; in\nSubvers"
+        },
+        {
+          "page": 15,
+          "distance": 0.4156,
+          "hit": false,
+          "text": "27 Recording Changes to the Repository\n\nAt this point, you should have a bona fide Git repository on your local machine, and a checkout or\nworking copy of all o"
+        },
+        {
+          "page": 13,
+          "distance": 0.4268,
+          "hit": false,
+          "text": "See Git Internals for"
+        }
+      ],
+      "answer": "According to the context, Git has three main states that files can reside in: modified, staged, and committed.",
+      "answer_correct": true
+    }
+  ],
+  "What is the technical name of the staging area in Git?": [
+    {
+      "chunker": "paragraph",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 4,
+          "distance": 0.2487,
+          "hit": true,
+          "text": "The staging area is a file, generally contained in your Git directory, that stores information about what will go into your next commit. Its technical name in G"
+        },
+        {
+          "page": 24,
+          "distance": 0.4031,
+          "hit": false,
+          "text": "Skipping the Staging Area area is sometimes a bit more complex than you need in your workflow. If you want to skip the staging area, Git provides a simple short"
+        },
+        {
+          "page": 23,
+          "distance": 0.4057,
+          "hit": false,
+          "text": "Committing Your Changes Now that your staging area is set up the way you want it, you can commit your changes. Remember that anything that is still unstaged — a"
+        }
+      ],
+      "answer": "The technical name in Git parlance is the “index”.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "recursive",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 4,
+          "distance": 0.2414,
+          "hit": true,
+          "text": "The staging area is a file, generally contained in your Git directory, that stores information about\nwhat will go into your next commit. Its technical name in G"
+        },
+        {
+          "page": 23,
+          "distance": 0.3259,
+          "hit": false,
+          "text": "Now that your staging area is set up the way you want it, you can commit your changes. Remember\nthat anything that is still unstaged — any files you have create"
+        },
+        {
+          "page": 24,
+          "distance": 0.387,
+          "hit": false,
+          "text": "Skipping the Staging Area\n\n\n\narea is sometimes a bit more complex than you need in your workflow. If you want to skip the\nstaging area, Git provides a simple sh"
+        }
+      ],
+      "answer": "The technical name in Git parlance is the “index”.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "character",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 4,
+          "distance": 0.2844,
+          "hit": true,
+          "text": "erally contained in your Git directory, that stores information about\nwhat will go into your next commit. Its technical name in Git parlance is the “index”, but"
+        },
+        {
+          "page": 24,
+          "distance": 0.3554,
+          "hit": false,
+          "text": "project that you can revert to or\ncompare to later.\n\nSkipping the Staging Area\n\n\n\narea is sometimes a bit more complex than you need in your workflow. If you wa"
+        },
+        {
+          "page": 23,
+          "distance": 0.3635,
+          "hit": false,
+          "text": "lable on your system.\n\nCommitting Your Changes\n\nNow that your staging area is set up the way you want it, you can commit your changes. Remember\nthat anything th"
+        }
+      ],
+      "answer": "The technical name in Git parlance is the “index”.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "semantic",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 4,
+          "distance": 0.4045,
+          "hit": true,
+          "text": "16 Modified means that you have changed the file but have not committed it to your database yet. Staged means that you have marked a modified file in its curren"
+        },
+        {
+          "page": 34,
+          "distance": 0.4249,
+          "hit": false,
+          "text": "Unstaging a Staged File\n\nThe next two sections demonstrate how to work with your staging area and working directory\nchanges. The nice part is that the command y"
+        },
+        {
+          "page": 13,
+          "distance": 0.4252,
+          "hit": false,
+          "text": "See Git Internals for"
+        }
+      ],
+      "answer": "The technical name in Git parlance is the “index”, but the phrase “staging area” works just as well.",
+      "answer_correct": true
+    }
+  ],
+  "Which command installs Git on Fedora?": [
+    {
+      "chunker": "paragraph",
+      "rank_of_evidence": 5,
+      "top3": [
+        {
+          "page": 7,
+          "distance": 0.3617,
+          "hit": false,
+          "text": "For example, if you’re on a system that has dnf apt-get (such as a Debian-based system), you can use one of these commands to install the minimal dependencies f"
+        },
+        {
+          "page": 8,
+          "distance": 0.383,
+          "hit": false,
+          "text": "Then, compile and install: [path]/etc/gitconfig $ tar -zxf git-2.8.0.tar.gz $ cd git-2.8.0repositories. If you pass the option $ make configure $ ./configure --"
+        },
+        {
+          "page": 6,
+          "distance": 0.3851,
+          "hit": false,
+          "text": "Installing on macOS Command Line Tools. git from the Terminal the very first time. $ git --version If you don’t have it installed already, it will prompt you to"
+        }
+      ],
+      "answer": "I don't know.",
+      "answer_correct": false
+    },
+    {
+      "chunker": "recursive",
+      "rank_of_evidence": 3,
+      "top3": [
+        {
+          "page": 5,
+          "distance": 0.3666,
+          "hit": false,
+          "text": "$ sudo apt install git-all\n\n\nFor more options, there are instructions for installing on several different Unix distributions on the\nGit website, at https://git-"
+        },
+        {
+          "page": 7,
+          "distance": 0.3788,
+          "hit": false,
+          "text": "install the minimal dependencies for compiling and installing the Git binaries:"
+        },
+        {
+          "page": 5,
+          "distance": 0.3809,
+          "hit": true,
+          "text": "Installing on Linux\n\n\n\nthrough the package management tool that comes with your distribution. If you’re on Fedora (or\nany closely-related RPM-based distribution"
+        }
+      ],
+      "answer": "$ sudo dnf install git-all",
+      "answer_correct": true
+    },
+    {
+      "chunker": "character",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 5,
+          "distance": 0.3731,
+          "hit": true,
+          "text": "tribution. If you’re on Fedora (or\nany closely-related RPM-based distribution, such as RHEL or CentOS), you can use dnf:\n\n\n  $ sudo dnf install git-all\n\n\nIf you"
+        },
+        {
+          "page": 7,
+          "distance": 0.3956,
+          "hit": false,
+          "text": "u can use one of these commands to\ninstall the minimal dependencies for compiling and installing the Git binaries:\n\n\n  $ sudo dnf install dh-autoreconf curl-dev"
+        },
+        {
+          "page": 5,
+          "distance": 0.4143,
+          "hit": false,
+          "text": ", any recent version should work just fine. Though most of\n                the commands we use should work even in ancient versions of Git, some of them\n      "
+        }
+      ],
+      "answer": "$ sudo dnf install git-all",
+      "answer_correct": true
+    },
+    {
+      "chunker": "semantic",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 5,
+          "distance": 0.4407,
+          "hit": true,
+          "text": "You can either install it as a\npackage or via another installer, or download the source code and compile it yourself. This book was written using Git version 2."
+        },
+        {
+          "page": 7,
+          "distance": 0.4527,
+          "hit": false,
+          "text": "19 (such as Fedora) or\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInstalling from Source\n\nSome people may instead find it useful to install Git from source, bec"
+        },
+        {
+          "page": 6,
+          "distance": 0.4616,
+          "hit": false,
+          "text": "18 There are several ways to install Git on macOS. The easiest is probably to install the Xcode\n\n                                                               "
+        }
+      ],
+      "answer": "$ sudo dnf install git-all",
+      "answer_correct": true
+    }
+  ],
+  "Where can you download the macOS Git installer?": [
+    {
+      "chunker": "paragraph",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 6,
+          "distance": 0.2067,
+          "hit": true,
+          "text": "If you want a more up to date version, you can also install it via a binary installer. A macOS Git installer is maintained and available for download at the Git"
+        },
+        {
+          "page": 6,
+          "distance": 0.2496,
+          "hit": false,
+          "text": "Figure 7. Git macOS installer The most official build is available for Installing on Windows There are also a few ways to install Git on Windows. download on th"
+        },
+        {
+          "page": 6,
+          "distance": 0.3345,
+          "hit": false,
+          "text": "Installing on macOS Command Line Tools. git from the Terminal the very first time. $ git --version If you don’t have it installed already, it will prompt you to"
+        }
+      ],
+      "answer": "You can download the macOS Git installer at https://git-scm.com/download/mac.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "recursive",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 6,
+          "distance": 0.2146,
+          "hit": true,
+          "text": "If you want a more up to date version, you can also install it via a binary installer. A macOS Git\ninstaller is maintained and available for download at the Git"
+        },
+        {
+          "page": 6,
+          "distance": 0.3054,
+          "hit": false,
+          "text": "Installing on macOS\n\n\n\nCommand Line Tools.                                                                                          git from\nthe Terminal the ve"
+        },
+        {
+          "page": 6,
+          "distance": 0.3224,
+          "hit": false,
+          "text": "Figure 7. Git macOS installer\n\n\n\n\n\n\n\n\n\n\n                                                                                                                        "
+        }
+      ],
+      "answer": "You can download the macOS Git installer at the Git website, at https://git-scm.com/download/mac.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "character",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 6,
+          "distance": 0.1906,
+          "hit": true,
+          "text": "n also install it via a binary installer. A macOS Git\ninstaller is maintained and available for download at the Git website, at https://git-scm.com/\ndownload/ma"
+        },
+        {
+          "page": 6,
+          "distance": 0.3483,
+          "hit": false,
+          "text": "18 There are several ways to install Git on macOS. The easiest is probably to install the Xcode\n\n                                                               "
+        },
+        {
+          "page": 5,
+          "distance": 0.3518,
+          "hit": false,
+          "text": "nstalling on several different Unix distributions on the\nGit website, at https://git-scm.com/download/linux."
+        }
+      ],
+      "answer": "You can download the macOS Git installer at the Git website, at https://git-scm.com/download/mac.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "semantic",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 6,
+          "distance": 0.3227,
+          "hit": true,
+          "text": "$ git --version\n\n\nIf you don’t have it installed already, it will prompt you to install it. If you want a more up to date version, you can also install it via a"
+        },
+        {
+          "page": 6,
+          "distance": 0.3405,
+          "hit": false,
+          "text": "18 There are several ways to install Git on macOS. The easiest is probably to install the Xcode\n\n                                                               "
+        },
+        {
+          "page": 7,
+          "distance": 0.4527,
+          "hit": false,
+          "text": "You can get it via the kernel.org site, at https://www.kernel.org/pub/\nsoftware/scm/git, or the mirror on the GitHub website, at https://github.com/git/git/tags"
+        }
+      ],
+      "answer": "A macOS Git installer is maintained and available for download at the Git website, at https://git-scm.com/download/mac.",
+      "answer_correct": true
+    }
+  ],
+  "How do you set your user name for all repositories?": [
+    {
+      "chunker": "paragraph",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 9,
+          "distance": 0.4086,
+          "hit": true,
+          "text": "$ git config --global user.name \"John Doe\" $ git config --global user.email johndoe@example.com Again, you need to do this only once if you pass the --global op"
+        },
+        {
+          "page": 9,
+          "distance": 0.4608,
+          "hit": false,
+          "text": "$ git config --list --show-origin Your Identity The first thing you should do when you install Git is to set your user name and email address. This is important"
+        },
+        {
+          "page": 14,
+          "distance": 0.4642,
+          "hit": false,
+          "text": "If you want to clone the repository into a directory named something other than libgit2, you can specify the new directory name as an additional argument:"
+        }
+      ],
+      "answer": "You set your user name for all repositories using the command `$ git config --global user.name \"John Doe\"`.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "recursive",
+      "rank_of_evidence": 2,
+      "top3": [
+        {
+          "page": 9,
+          "distance": 0.4187,
+          "hit": false,
+          "text": "Again, you need to do this only once if you pass the --global option, because then Git will always\nuse that information for your user on that system. If you wan"
+        },
+        {
+          "page": 9,
+          "distance": 0.43,
+          "hit": true,
+          "text": "Your Identity\n\nThe first thing you should do when you install Git is to set your user name and email address. This\nis important because every Git commit uses th"
+        },
+        {
+          "page": 14,
+          "distance": 0.4802,
+          "hit": false,
+          "text": "set up to access your Git repository and the pros and cons of each."
+        }
+      ],
+      "answer": "You can run the command `$ git config --global user.name \"John Doe\"` to set your user name for all repositories.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "character",
+      "rank_of_evidence": 2,
+      "top3": [
+        {
+          "page": 9,
+          "distance": 0.425,
+          "hit": false,
+          "text": "d to do this only once if you pass the --global option, because then Git will always\nuse that information for your user on that system. If you want to override "
+        },
+        {
+          "page": 9,
+          "distance": 0.4417,
+          "hit": true,
+          "text": "stall Git is to set your user name and email address. This\nis important because every Git commit uses this information, and it’s immutably baked into the\ncommit"
+        },
+        {
+          "page": 10,
+          "distance": 0.4866,
+          "hit": false,
+          "text": "ersion 2.28 onwards, you can set a different name for the initial branch.\n\nTo set main as the default branch name do:\n\n\n  $ git config --global init.defaultBran"
+        }
+      ],
+      "answer": "You can set your user name and email address using the command: `$ git config --global user.name \"John Doe\" $ git config --global user.email johndoe@example.com`. You need to do this only once if you pass the --global option.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "semantic",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 9,
+          "distance": 0.4918,
+          "hit": true,
+          "text": "21 C:\\ProgramData\\Git\\config on Windows Vista and newer. This config file can only be changed by git\nconfig -f <file> as an admin. You can view all of your sett"
+        },
+        {
+          "page": 13,
+          "distance": 0.5166,
+          "hit": false,
+          "text": "See Git Internals for"
+        },
+        {
+          "page": 10,
+          "distance": 0.5663,
+          "hit": false,
+          "text": "22 another editor, or a 32-bit version, please find specific instructions for how to set\n                 up your favorite editor with Git in git config core.ed"
+        }
+      ],
+      "answer": "You can set your user name for all repositories using the command:\n\n`$ git config --global user.name \"John Doe\"`",
+      "answer_correct": true
+    }
+  ],
+  "What branch name does git init create by default?": [
+    {
+      "chunker": "paragraph",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 10,
+          "distance": 0.1965,
+          "hit": true,
+          "text": "Your default branch name By default Git will create a branch called master when you create a new repository with git init. From Git version 2.28 onwards, you ca"
+        },
+        {
+          "page": 10,
+          "distance": 0.3016,
+          "hit": false,
+          "text": "To set main as the default branch name do: $ git config --global init.defaultBranch main Checking Your Settings If you want to check your configuration settings"
+        },
+        {
+          "page": 16,
+          "distance": 0.3568,
+          "hit": false,
+          "text": "In addition, the default branch name can be changed (as you have seen in Your default branch name), so  you may see a different name for the default branch."
+        }
+      ],
+      "answer": "By default Git will create a branch called master when you create a new repository with git init.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "recursive",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 10,
+          "distance": 0.26,
+          "hit": true,
+          "text": "Your default branch name\n\nBy default Git will create a branch called master when you create a new repository with git init.\nFrom Git version 2.28 onwards, you c"
+        },
+        {
+          "page": 16,
+          "distance": 0.3454,
+          "hit": false,
+          "text": "branch name can be changed (as you have seen in Your default branch name), so\n                you may see a different name for the default branch."
+        },
+        {
+          "page": 13,
+          "distance": 0.3696,
+          "hit": false,
+          "text": "and type:\n\n\n  $ git init\n\n\nThis creates a new subdirectory named .git that contains all of your necessary repository files — a\nGit repository skeleton. At this "
+        }
+      ],
+      "answer": "Git init will create a branch called master by default.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "character",
+      "rank_of_evidence": 2,
+      "top3": [
+        {
+          "page": 10,
+          "distance": 0.3057,
+          "hit": false,
+          "text": "ersion 2.28 onwards, you can set a different name for the initial branch.\n\nTo set main as the default branch name do:\n\n\n  $ git config --global init.defaultBran"
+        },
+        {
+          "page": 10,
+          "distance": 0.3347,
+          "hit": true,
+          "text": "tate when Git attempts to launch it. An example on a Windows system\n                 may include a prematurely terminated Git operation during a Git initiated e"
+        },
+        {
+          "page": 13,
+          "distance": 0.3696,
+          "hit": false,
+          "text": "and type:\n\n\n  $ git init\n\n\nThis creates a new subdirectory named .git that contains all of your necessary repository files — a\nGit repository skeleton. At this "
+        }
+      ],
+      "answer": "By default Git will create a branch called master when you create a new repository with git init.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "semantic",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 10,
+          "distance": 0.4006,
+          "hit": true,
+          "text": "22 another editor, or a 32-bit version, please find specific instructions for how to set\n                 up your favorite editor with Git in git config core.ed"
+        },
+        {
+          "page": 13,
+          "distance": 0.4287,
+          "hit": false,
+          "text": "See Git Internals for"
+        },
+        {
+          "page": 16,
+          "distance": 0.4493,
+          "hit": false,
+          "text": "28 branch on the server. For now, that branch is always master, which is the default; you won’t worry\nabout it here. Git Branching will go over branches and ref"
+        }
+      ],
+      "answer": "By default Git will create a branch called master when you create a new repository with git init.",
+      "answer_correct": true
+    }
+  ],
+  "From which Git version can you set a different name for the initial branch?": [
+    {
+      "chunker": "paragraph",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 10,
+          "distance": 0.2716,
+          "hit": true,
+          "text": "Your default branch name By default Git will create a branch called master when you create a new repository with git init. From Git version 2.28 onwards, you ca"
+        },
+        {
+          "page": 16,
+          "distance": 0.3062,
+          "hit": false,
+          "text": "In addition, the default branch name can be changed (as you have seen in Your default branch name), so  you may see a different name for the default branch."
+        },
+        {
+          "page": 10,
+          "distance": 0.3795,
+          "hit": false,
+          "text": "To set main as the default branch name do: $ git config --global init.defaultBranch main Checking Your Settings If you want to check your configuration settings"
+        }
+      ],
+      "answer": "From Git version 2.28 onwards, you can set a different name for the initial branch.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "recursive",
+      "rank_of_evidence": 2,
+      "top3": [
+        {
+          "page": 16,
+          "distance": 0.2978,
+          "hit": false,
+          "text": "branch name can be changed (as you have seen in Your default branch name), so\n                you may see a different name for the default branch."
+        },
+        {
+          "page": 10,
+          "distance": 0.3196,
+          "hit": true,
+          "text": "Your default branch name\n\nBy default Git will create a branch called master when you create a new repository with git init.\nFrom Git version 2.28 onwards, you c"
+        },
+        {
+          "page": 16,
+          "distance": 0.416,
+          "hit": false,
+          "text": "GitHub changed the default branch name from master to main in mid-2020, and\n                 other Git hosts followed suit. So you may find that the default bra"
+        }
+      ],
+      "answer": "From Git version 2.28 onwards, you can set a different name for the initial branch.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "character",
+      "rank_of_evidence": 3,
+      "top3": [
+        {
+          "page": 10,
+          "distance": 0.2959,
+          "hit": false,
+          "text": "ersion 2.28 onwards, you can set a different name for the initial branch.\n\nTo set main as the default branch name do:\n\n\n  $ git config --global init.defaultBran"
+        },
+        {
+          "page": 16,
+          "distance": 0.4231,
+          "hit": false,
+          "text": "hosts followed suit. So you may find that the default branch name in\n                 some newly created repositories is main and not master. In addition, the d"
+        },
+        {
+          "page": 10,
+          "distance": 0.427,
+          "hit": true,
+          "text": "tate when Git attempts to launch it. An example on a Windows system\n                 may include a prematurely terminated Git operation during a Git initiated e"
+        }
+      ],
+      "answer": "From Git version 2.28 onwards, you can set a different name for the initial branch.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "semantic",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 10,
+          "distance": 0.4762,
+          "hit": true,
+          "text": "22 another editor, or a 32-bit version, please find specific instructions for how to set\n                 up your favorite editor with Git in git config core.ed"
+        },
+        {
+          "page": 13,
+          "distance": 0.5068,
+          "hit": false,
+          "text": "See Git Internals for"
+        },
+        {
+          "page": 26,
+          "distance": 0.511,
+          "hit": false,
+          "text": "However, Git is pretty smart about\nfiguring that out after the fact — we’ll deal with detecting file movement a bit later. Thus it’s a bit confusing that Git ha"
+        }
+      ],
+      "answer": "From Git version 2.28 onwards, you can set a different name for the initial branch.",
+      "answer_correct": true
+    }
+  ],
+  "How do you get the more concise help output for a Git command?": [
+    {
+      "chunker": "paragraph",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 11,
+          "distance": 0.2377,
+          "hit": true,
+          "text": "available options for a Git command, you can ask for the more concise “help” output with the -h $ git add -h usage: git add [<options>] [--] <pathspec>..."
+        },
+        {
+          "page": 11,
+          "distance": 0.2459,
+          "hit": false,
+          "text": "$ git help <verb> $ git <verb> --help $ man git-<verb> For example, you can get the manpage help for the git config command by running this: $ git help config"
+        },
+        {
+          "page": 11,
+          "distance": 0.3216,
+          "hit": false,
+          "text": "$ git config --show-origin rerere.autoUpdate file:/home/johndoe/.gitconfig false option, as in: Getting Help If you ever need help while using Git, there are th"
+        }
+      ],
+      "answer": "You can ask for the more concise “help” output with the -h $ git add -h usage: git add [<options>] [--] <pathspec>...",
+      "answer_correct": true
+    },
+    {
+      "chunker": "recursive",
+      "rank_of_evidence": 3,
+      "top3": [
+        {
+          "page": 11,
+          "distance": 0.2414,
+          "hit": false,
+          "text": "$ git help <verb>\n  $ git <verb> --help\n  $ man git-<verb>\n\n\nFor example, you can get the manpage help for the git config command by running this:\n\n\n  $ git hel"
+        },
+        {
+          "page": 11,
+          "distance": 0.307,
+          "hit": false,
+          "text": "option, as in:\nGetting Help\n\nIf you ever need help while using Git, there are three equivalent ways to get the comprehensive\nmanual page (manpage) help for any "
+        },
+        {
+          "page": 11,
+          "distance": 0.3659,
+          "hit": true,
+          "text": "available options for a Git command, you can ask for the more concise “help” output with the -h\n\n\n\n\n  $ git add -h\n  usage: git add [<options>] [--] <pathspec>."
+        }
+      ],
+      "answer": "You can ask for the more concise “help” output with the -h.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "character",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 11,
+          "distance": 0.3386,
+          "hit": true,
+          "text": "it and are\noften willing to help.\n\n\n\navailable options for a Git command, you can ask for the more concise “help” output with the -h\n\n\n\n\n  $ git add -h\n  usage:"
+        },
+        {
+          "page": 18,
+          "distance": 0.342,
+          "hit": false,
+          "text": "output from the command:\n\n\n  $ git status -s\n   M README"
+        },
+        {
+          "page": 11,
+          "distance": 0.362,
+          "hit": false,
+          "text": "age) help for any of the Git commands:\n\n\n  $ git help <verb>\n  $ git <verb> --help\n  $ man git-<verb>\n\n\nFor example, you can get the manpage help for the git co"
+        }
+      ],
+      "answer": "You can ask for the more concise “help” output with the -h.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "semantic",
+      "rank_of_evidence": 5,
+      "top3": [
+        {
+          "page": 28,
+          "distance": 0.4116,
+          "hit": false,
+          "text": "You can also use a series of summarizing options with git log. For\nexample, if you want to see some abbreviated stats for each commit, you can use the --stat op"
+        },
+        {
+          "page": 13,
+          "distance": 0.4238,
+          "hit": false,
+          "text": "See Git Internals for"
+        },
+        {
+          "page": 29,
+          "distance": 0.4595,
+          "hit": false,
+          "text": "Another really useful option is --pretty. This option changes the log output to formats other than\nthe default. A few prebuilt option values are available for y"
+        }
+      ],
+      "answer": "You can use the --pretty=oneline option.",
+      "answer_correct": false
+    }
+  ],
+  "What data does Git receive when you clone a repository?": [
+    {
+      "chunker": "paragraph",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 14,
+          "distance": 0.3336,
+          "hit": true,
+          "text": "This is an important distinction — instead of getting just a working copy, Git receives a full copy of nearly all data that the server has. Every version of eve"
+        },
+        {
+          "page": 39,
+          "distance": 0.3832,
+          "hit": false,
+          "text": "If you clone a repository, the command automatically adds that remote repository under the name “origin”. So, git fetch origin fetches any new work that has bee"
+        },
+        {
+          "page": 14,
+          "distance": 0.3836,
+          "hit": false,
+          "text": "You clone a repository with git clone <url>. library called libgit2, you can do so like this: $ git clone https://github.com/libgit2/libgit2 That creates a dire"
+        }
+      ],
+      "answer": "Git receives a full copy of nearly all data that the server has, including every version of every file for the history of the project.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "recursive",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 14,
+          "distance": 0.3678,
+          "hit": true,
+          "text": "distinction — instead of getting just a working copy, Git receives a full copy of nearly all data that\nthe server has. Every version of every file for the histo"
+        },
+        {
+          "page": 39,
+          "distance": 0.3724,
+          "hit": false,
+          "text": "If you clone a repository, the command automatically adds that remote repository under the name\n“origin”. So, git fetch origin fetches any new work that has bee"
+        },
+        {
+          "page": 14,
+          "distance": 0.3822,
+          "hit": false,
+          "text": "You clone a repository with git clone <url>.\nlibrary called libgit2, you can do so like this:\n\n\n  $ git clone https://github.com/libgit2/libgit2"
+        }
+      ],
+      "answer": "Git receives a full copy of nearly all data that the server has, including every version of every file for the history of the project.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "character",
+      "rank_of_evidence": 10,
+      "top3": [
+        {
+          "page": 14,
+          "distance": 0.3958,
+          "hit": false,
+          "text": "e some server-side hooks and such, but all the versioned data would be there — see                       Getting Git\non a Server for more details).\n\nYou clone a"
+        },
+        {
+          "page": 14,
+          "distance": 0.3964,
+          "hit": false,
+          "text": "to — the command you need is               git clone. If you’re familiar with other VCSs such as\nSubversion, you’ll notice that the command is \"clone\" and not \""
+        },
+        {
+          "page": 14,
+          "distance": 0.4085,
+          "hit": false,
+          "text": "tial project version'\n\n\nWe’ll go over what these commands do in just a minute. At this point, you have a Git repository\nwith tracked files and an initial commit"
+        }
+      ],
+      "answer": "Git receives a full copy of nearly all data that the server has, including every version of every file.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "semantic",
+      "rank_of_evidence": 2,
+      "top3": [
+        {
+          "page": 13,
+          "distance": 0.4589,
+          "hit": false,
+          "text": "See Git Internals for"
+        },
+        {
+          "page": 14,
+          "distance": 0.4735,
+          "hit": true,
+          "text": "26 If you want to start version-controlling existing files (as opposed to an empty directory), you should\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+        },
+        {
+          "page": 15,
+          "distance": 0.4953,
+          "hit": false,
+          "text": "27 Recording Changes to the Repository\n\nAt this point, you should have a bona fide Git repository on your local machine, and a checkout or\nworking copy of all o"
+        }
+      ],
+      "answer": "Git receives a full copy of nearly all data that the server has, including every version of every file for the history of the project.",
+      "answer_correct": true
+    }
+  ],
+  "What does a URL using the SSH transfer protocol look like?": [
+    {
+      "chunker": "paragraph",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 14,
+          "distance": 0.3802,
+          "hit": true,
+          "text": "Git has a number of different transfer protocols you can use. The previous example uses the https:// protocol, but you may also see git:// or user@server:path/t"
+        },
+        {
+          "page": 40,
+          "distance": 0.5423,
+          "hit": false,
+          "text": "Inspecting a Remote If you want to see more information about a particular remote, you can use the git remote show <remote> command. origin, you get something l"
+        },
+        {
+          "page": 38,
+          "distance": 0.55,
+          "hit": false,
+          "text": "You can also specify -v, which shows you the URLs that Git has stored for the shortname to be used when reading and writing to that remote: $ git remote -v orig"
+        }
+      ],
+      "answer": "git:// or user@server:path/to/repo.git",
+      "answer_correct": true
+    },
+    {
+      "chunker": "recursive",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 14,
+          "distance": 0.4531,
+          "hit": true,
+          "text": "Git has a number of different transfer protocols you can use. The previous example uses the\nhttps:// protocol, but you may also see git:// or user@server:path/t"
+        },
+        {
+          "page": 38,
+          "distance": 0.5475,
+          "hit": false,
+          "text": "You can also specify -v, which shows you the URLs that Git has stored for the shortname to be used\nwhen reading and writing to that remote:\n\n\n  $ git remote -v\n"
+        },
+        {
+          "page": 40,
+          "distance": 0.5738,
+          "hit": false,
+          "text": "Inspecting a Remote\n\nIf you want to see more information about a particular remote, you can use the git remote show\n<remote> command.                           "
+        }
+      ],
+      "answer": "user@server:path/to/repo.git",
+      "answer_correct": true
+    },
+    {
+      "chunker": "character",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 14,
+          "distance": 0.4999,
+          "hit": true,
+          "text": "tory is called mylibgit.\n\nGit has a number of different transfer protocols you can use. The previous example uses the\nhttps:// protocol, but you may also see gi"
+        },
+        {
+          "page": 40,
+          "distance": 0.556,
+          "hit": false,
+          "text": "on how to push to remote servers.\n\nInspecting a Remote\n\nIf you want to see more information about a particular remote, you can use the git remote show\n<remote> "
+        },
+        {
+          "page": 38,
+          "distance": 0.5662,
+          "hit": false,
+          "text": "remotes use a variety of protocols; we’ll cover more about this in Getting Git on a"
+        }
+      ],
+      "answer": "git:// or user@server:path/to/repo.git",
+      "answer_correct": true
+    },
+    {
+      "chunker": "semantic",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 14,
+          "distance": 0.4902,
+          "hit": true,
+          "text": "The previous example uses the\nhttps:// protocol, but you may also see git:// or user@server:path/to/repo.git, which uses the SSH\ntransfer protocol. Getting Git "
+        },
+        {
+          "page": 13,
+          "distance": 0.59,
+          "hit": false,
+          "text": "See Git Internals for"
+        },
+        {
+          "page": 40,
+          "distance": 0.5961,
+          "hit": false,
+          "text": "See Git Branching for\nmore detailed information on how to push to remote servers. Inspecting a Remote\n\nIf you want to see more information about a particular re"
+        }
+      ],
+      "answer": "git:// or user@server:path/to/repo.git",
+      "answer_correct": true
+    }
+  ],
+  "What two states can each file in your working directory be in?": [
+    {
+      "chunker": "paragraph",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 15,
+          "distance": 0.4014,
+          "hit": true,
+          "text": "Remember that each file in your working directory can be in one of two states: tracked or untracked. Tracked files are files that were in the last snapshot, as "
+        },
+        {
+          "page": 15,
+          "distance": 0.4966,
+          "hit": false,
+          "text": "If you Checking the Status of Your Files The main tool you use to determine which files are in which state is the git status command. run this command directly "
+        },
+        {
+          "page": 3,
+          "distance": 0.4971,
+          "hit": false,
+          "text": "The Three States Pay attention now — here is the main thing to remember about Git if you want the rest of your learning process to go smoothly. Git has three ma"
+        }
+      ],
+      "answer": "According to the context, each file in your working directory can be in tracked or untracked.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "recursive",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 15,
+          "distance": 0.3926,
+          "hit": true,
+          "text": "Remember that each file in your working directory can be in one of two states: tracked or\nuntracked. Tracked files are files that were in the last snapshot, as "
+        },
+        {
+          "page": 19,
+          "distance": 0.4675,
+          "hit": false,
+          "text": "New files that aren’t tracked have a ?? next to them, new files that have been added to the staging\narea have an A, modified files have an M and so on. There ar"
+        },
+        {
+          "page": 34,
+          "distance": 0.4684,
+          "hit": false,
+          "text": "The next two sections demonstrate how to work with your staging area and working directory\nchanges. The nice part is that the command you use to determine the s"
+        }
+      ],
+      "answer": "Tracked or untracked.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "character",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 15,
+          "distance": 0.4256,
+          "hit": true,
+          "text": "ach time the project reaches a state\nyou want to record.\n\nRemember that each file in your working directory can be in one of two states: tracked or\nuntracked. T"
+        },
+        {
+          "page": 3,
+          "distance": 0.4643,
+          "hit": false,
+          "text": "o go smoothly. Git has three main states that your files can reside in: modified,\nstaged, and committed:"
+        },
+        {
+          "page": 19,
+          "distance": 0.4791,
+          "hit": false,
+          "text": "es that aren’t tracked have a ?? next to them, new files that have been added to the staging\narea have an A, modified files have an M and so on. There are two c"
+        }
+      ],
+      "answer": "Tracked or untracked.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "semantic",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 15,
+          "distance": 0.4974,
+          "hit": true,
+          "text": "27 Recording Changes to the Repository\n\nAt this point, you should have a bona fide Git repository on your local machine, and a checkout or\nworking copy of all o"
+        },
+        {
+          "page": 13,
+          "distance": 0.5465,
+          "hit": false,
+          "text": "See Git Internals for"
+        },
+        {
+          "page": 17,
+          "distance": 0.5803,
+          "hit": false,
+          "text": "You may recall that when you ran git init earlier, you then ran git\nadd <files> — that was to begin tracking files in your directory. git add command takes a pa"
+        }
+      ],
+      "answer": "Tracked or untracked.",
+      "answer_correct": true
+    }
+  ],
+  "In short git status output, what marks new files that aren't tracked?": [
+    {
+      "chunker": "paragraph",
+      "rank_of_evidence": 5,
+      "top3": [
+        {
+          "page": 16,
+          "distance": 0.2243,
+          "hit": false,
+          "text": "README nothing added to commit but untracked files present (use \"git add\" to track) You can see that your new README file is untracked, because it’s under the “"
+        },
+        {
+          "page": 15,
+          "distance": 0.2382,
+          "hit": false,
+          "text": "Remember that each file in your working directory can be in one of two states: tracked or untracked. Tracked files are files that were in the last snapshot, as "
+        },
+        {
+          "page": 19,
+          "distance": 0.2809,
+          "hit": false,
+          "text": "unstaged. Ignoring Files Often, you’ll have a class of files that you don’t want Git to automatically add or even show you as being untracked. These are general"
+        }
+      ],
+      "answer": "According to the context, your status output shows new files that aren't tracked under the “Untracked files” heading.",
+      "answer_correct": false
+    },
+    {
+      "chunker": "recursive",
+      "rank_of_evidence": 3,
+      "top3": [
+        {
+          "page": 16,
+          "distance": 0.2181,
+          "hit": false,
+          "text": "You can see that your new README file is untracked, because it’s under the “Untracked files” heading\nin your status output. Untracked basically means that Git s"
+        },
+        {
+          "page": 15,
+          "distance": 0.2335,
+          "hit": false,
+          "text": "Remember that each file in your working directory can be in one of two states: tracked or\nuntracked. Tracked files are files that were in the last snapshot, as "
+        },
+        {
+          "page": 19,
+          "distance": 0.2754,
+          "hit": true,
+          "text": "New files that aren’t tracked have a ?? next to them, new files that have been added to the staging\narea have an A, modified files have an M and so on. There ar"
+        }
+      ],
+      "answer": "According to the context, new files that aren't tracked have a \"?? \" next to them.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "character",
+      "rank_of_evidence": 6,
+      "top3": [
+        {
+          "page": 16,
+          "distance": 0.2366,
+          "hit": false,
+          "text": "track)\n\n\nYou can see that your new README file is untracked, because it’s under the “Untracked files” heading\nin your status output. Untracked basically means t"
+        },
+        {
+          "page": 15,
+          "distance": 0.2672,
+          "hit": false,
+          "text": "ach time the project reaches a state\nyou want to record.\n\nRemember that each file in your working directory can be in one of two states: tracked or\nuntracked. T"
+        },
+        {
+          "page": 15,
+          "distance": 0.2692,
+          "hit": false,
+          "text": "ort, tracked files are files that Git knows about.\n\nUntracked files are everything else — any files in your working directory that were not in your last\nsnapsho"
+        }
+      ],
+      "answer": "According to the context, the “Untracked files” heading in your status output marks new files that aren't tracked.",
+      "answer_correct": false
+    },
+    {
+      "chunker": "semantic",
+      "rank_of_evidence": 6,
+      "top3": [
+        {
+          "page": 15,
+          "distance": 0.3278,
+          "hit": false,
+          "text": "27 Recording Changes to the Repository\n\nAt this point, you should have a bona fide Git repository on your local machine, and a checkout or\nworking copy of all o"
+        },
+        {
+          "page": 16,
+          "distance": 0.3432,
+          "hit": false,
+          "text": "You do want to start including\n       , so let’s start tracking the file. Tracking New Files\n\nIn order to begin tracking a new file, you use the command git add"
+        },
+        {
+          "page": 16,
+          "distance": 0.3836,
+          "hit": false,
+          "text": "28 branch on the server. For now, that branch is always master, which is the default; you won’t worry\nabout it here. Git Branching will go over branches and ref"
+        }
+      ],
+      "answer": "According to the context, the git status command shows new, untracked files under the “Untracked files” heading.",
+      "answer_correct": false
+    }
+  ],
+  "What files does the .gitignore pattern *.[oa] ignore?": [
+    {
+      "chunker": "paragraph",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 19,
+          "distance": 0.2646,
+          "hit": true,
+          "text": "$ cat .gitignoretree. *.[oa] *~ You can start patterns with a forward slash ( The first line tells Git to ignore any files ending in “.o” or “.a” — object and a"
+        },
+        {
+          "page": 19,
+          "distance": 0.3244,
+          "hit": false,
+          "text": "The rules for the patterns you can put in the .gitignore file are as follows: • # are ignored. • • /) to avoid recursivity. • /) to specify a directory."
+        },
+        {
+          "page": 19,
+          "distance": 0.3609,
+          "hit": false,
+          "text": "In such cases, you can create a file listing patterns to match them named .gitignore. .gitignore file: Standard glob patterns work, and will be applied recursiv"
+        }
+      ],
+      "answer": "The .gitignore pattern *.[oa] ignores any files ending in “.o” or “.a”.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "recursive",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 19,
+          "distance": 0.2874,
+          "hit": true,
+          "text": "You can start patterns with a forward slash (\nThe first line tells Git to ignore any files ending in “.o” or “.a” — object and archive files that may be\nthe pro"
+        },
+        {
+          "page": 19,
+          "distance": 0.3381,
+          "hit": false,
+          "text": "The rules for the patterns you can put in the .gitignore file are as follows:\n\n  •                                          # are ignored.\n\n  •\n\n\n  •           "
+        },
+        {
+          "page": 19,
+          "distance": 0.3873,
+          "hit": false,
+          "text": "named .gitignore.                               .gitignore file:\n                    Standard glob patterns work, and will be applied recursively throughout the"
+        }
+      ],
+      "answer": "The .gitignore pattern *.[oa] ignores files ending in “.o” or “.a”.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "character",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 19,
+          "distance": 0.3268,
+          "hit": true,
+          "text": ".gitignore file:\n                    Standard glob patterns work, and will be applied recursively throughout the entire working\n\n  $ cat .gitignoretree.\n  *.[oa"
+        },
+        {
+          "page": 19,
+          "distance": 0.3787,
+          "hit": false,
+          "text": "on’t want in your Git repository.\n\nThe rules for the patterns you can put in the .gitignore file are as follows:\n\n  •                                          #"
+        },
+        {
+          "page": 20,
+          "distance": 0.4006,
+          "hit": false,
+          "text": "files; see\n  build/\n\n  # ignore doc/notes.txt, but not doc/server/arch.txt\n  doc/*.txt\n\n  # ignore all .pdf files in the doc/ directory and any of its subdirect"
+        }
+      ],
+      "answer": "The .gitignore pattern *.[oa] ignores any files ending in “.o” or “.a”.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "semantic",
+      "rank_of_evidence": 3,
+      "top3": [
+        {
+          "page": 20,
+          "distance": 0.4286,
+          "hit": false,
+          "text": "32 Here is another example .gitignore file:\n\n\n  # ignore all .a files\n  *.a\n\n  # but do track lib.a, even though you're ignoring .a files above\n  !lib.a\n\n  # on"
+        },
+        {
+          "page": 13,
+          "distance": 0.4633,
+          "hit": false,
+          "text": "See Git Internals for"
+        },
+        {
+          "page": 19,
+          "distance": 0.4973,
+          "hit": true,
+          "text": "31 was modified, staged and then modified again, so there are changes to it that are both staged and\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                   "
+        }
+      ],
+      "answer": "The .gitignore pattern *.[oa] ignores any files ending in “.o” or “.a”.",
+      "answer_correct": true
+    }
+  ],
+  "How do you match nested directories in a .gitignore pattern?": [
+    {
+      "chunker": "paragraph",
+      "rank_of_evidence": 4,
+      "top3": [
+        {
+          "page": 19,
+          "distance": 0.3135,
+          "hit": false,
+          "text": "In such cases, you can create a file listing patterns to match them named .gitignore. .gitignore file: Standard glob patterns work, and will be applied recursiv"
+        },
+        {
+          "page": 19,
+          "distance": 0.3284,
+          "hit": false,
+          "text": "The rules for the patterns you can put in the .gitignore file are as follows: • # are ignored. • • /) to avoid recursivity. • /) to specify a directory."
+        },
+        {
+          "page": 20,
+          "distance": 0.3667,
+          "hit": false,
+          "text": "In the simple case, a repository might have a single .gitignore file in its root directory, which applies recursively to the entire repository. However, it is a"
+        }
+      ],
+      "answer": "According to the context, you can use the pattern `/) to specify a directory`.",
+      "answer_correct": false
+    },
+    {
+      "chunker": "recursive",
+      "rank_of_evidence": 3,
+      "top3": [
+        {
+          "page": 19,
+          "distance": 0.3521,
+          "hit": false,
+          "text": "The rules for the patterns you can put in the .gitignore file are as follows:\n\n  •                                          # are ignored.\n\n  •\n\n\n  •           "
+        },
+        {
+          "page": 20,
+          "distance": 0.377,
+          "hit": false,
+          "text": "In the simple case, a repository might have a single .gitignore file in its root\n                 directory, which applies recursively to the entire repository."
+        },
+        {
+          "page": 19,
+          "distance": 0.3784,
+          "hit": true,
+          "text": "9]) matches any character between them (in this case 0 through 9). You can also use two asterisks to\nmatch nested directories; a/**/z would match a/z, a/b/z, a/"
+        }
+      ],
+      "answer": "A/**/z would match a/z, a/b/z, a/b/c/z, and so on.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "character",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 19,
+          "distance": 0.377,
+          "hit": true,
+          "text": "e brackets (in this case a, b, or c); a question\nmark (?) matches a single character; and brackets enclosing characters separated by a hyphen ([0-\n9]) matches a"
+        },
+        {
+          "page": 19,
+          "distance": 0.3932,
+          "hit": false,
+          "text": "on’t want in your Git repository.\n\nThe rules for the patterns you can put in the .gitignore file are as follows:\n\n  •                                          #"
+        },
+        {
+          "page": 20,
+          "distance": 0.4154,
+          "hit": false,
+          "text": "We’ll cover\n\n\n                 In the simple case, a repository might have a single .gitignore file in its root\n                 directory, which applies recurs"
+        }
+      ],
+      "answer": "A/**/z would match a/z, a/b/z, a/b/c/z, and so on.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "semantic",
+      "rank_of_evidence": 3,
+      "top3": [
+        {
+          "page": 20,
+          "distance": 0.433,
+          "hit": false,
+          "text": "32 Here is another example .gitignore file:\n\n\n  # ignore all .a files\n  *.a\n\n  # but do track lib.a, even though you're ignoring .a files above\n  !lib.a\n\n  # on"
+        },
+        {
+          "page": 13,
+          "distance": 0.4402,
+          "hit": false,
+          "text": "See Git Internals for"
+        },
+        {
+          "page": 19,
+          "distance": 0.4414,
+          "hit": true,
+          "text": "•                                                       /) to specify a directory. •                                                                            "
+        }
+      ],
+      "answer": "A double asterisk (**) can be used to match nested directories.",
+      "answer_correct": true
+    }
+  ],
+  "Which git diff option shows the changes you have staged?": [
+    {
+      "chunker": "paragraph",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 21,
+          "distance": 0.1933,
+          "hit": true,
+          "text": "If you want to see what you’ve staged that will go into your next commit, you can use git diff --staged. This command compares your staged changes to your last "
+        },
+        {
+          "page": 21,
+          "distance": 0.2299,
+          "hit": false,
+          "text": "If you’ve staged all of your changes, git diff will give you no output."
+        },
+        {
+          "page": 20,
+          "distance": 0.2326,
+          "hit": false,
+          "text": "And what have you staged that you are about to commit? Although git status answers those questions very generally by listing the file names, git diff shows you "
+        }
+      ],
+      "answer": "git diff --staged",
+      "answer_correct": true
+    },
+    {
+      "chunker": "recursive",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 21,
+          "distance": 0.2187,
+          "hit": true,
+          "text": "If you want to see what you’ve staged that will go into your next commit, you can use git diff\n--staged. This command compares your staged changes to your last "
+        },
+        {
+          "page": 20,
+          "distance": 0.2268,
+          "hit": false,
+          "text": "changed but not yet staged? And what have you staged that you are about to commit? Although git\nstatus answers those questions very generally by listing the fil"
+        },
+        {
+          "page": 22,
+          "distance": 0.2428,
+          "hit": true,
+          "text": "and git diff --cached to see what you’ve staged so far (--staged and --cached are synonyms):"
+        }
+      ],
+      "answer": "git diff --staged",
+      "answer_correct": true
+    },
+    {
+      "chunker": "character",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 21,
+          "distance": 0.2404,
+          "hit": true,
+          "text": "n your working directory with what is in your staging area. The\nresult tells you the changes you’ve made that you haven’t yet staged.\n\nIf you want to see what y"
+        },
+        {
+          "page": 21,
+          "distance": 0.2646,
+          "hit": true,
+          "text": "t:\n\n\n  $ git diff --staged\n  diff --git a/README b/README\n  new file mode 100644\n  index 0000000..03902a1\n  --- /dev/null\n  +++ b/README\n  @@ -0,0 +1 @@\n  +My P"
+        },
+        {
+          "page": 21,
+          "distance": 0.2761,
+          "hit": false,
+          "text": "nstaged. If you’ve staged all of your changes,                git diff will\ngive you no output."
+        }
+      ],
+      "answer": "git diff --staged",
+      "answer_correct": true
+    },
+    {
+      "chunker": "semantic",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 21,
+          "distance": 0.2714,
+          "hit": true,
+          "text": "+merged in. Also, split your changes into comprehensive chunks if your patch is\n  +longer than a dozen lines. If you are starting to work on a particular area, "
+        },
+        {
+          "page": 20,
+          "distance": 0.3209,
+          "hit": false,
+          "text": "It is beyond the scope of this book to get into the details of multiple .gitignore\n                            man gitignore for the details. Viewing Your Stage"
+        },
+        {
+          "page": 22,
+          "distance": 0.3286,
+          "hit": true,
+          "text": "34 For another example, if you stage the CONTRIBUTING.md file and then edit it, you can use git diff to\nsee the changes in the file that are staged and the chan"
+        }
+      ],
+      "answer": "git diff --cached",
+      "answer_correct": true
+    }
+  ],
+  "How can you view diffs in an external tool such as vimdiff?": [
+    {
+      "chunker": "paragraph",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 23,
+          "distance": 0.2798,
+          "hit": true,
+          "text": "If you run git difftool instead of git diff, you can view any of these diffs in software like emerge, vimdiff and many more (including commercial products). Run"
+        },
+        {
+          "page": 23,
+          "distance": 0.3622,
+          "hit": false,
+          "text": "We will continue to use the git diff command in various ways throughout the rest of the book. There is another way to look at these diffs if you prefer a graphi"
+        },
+        {
+          "page": 21,
+          "distance": 0.3842,
+          "hit": false,
+          "text": "If you want to see what you’ve staged that will go into your next commit, you can use git diff --staged. This command compares your staged changes to your last "
+        }
+      ],
+      "answer": "You can run git difftool instead of git diff to view diffs in software like emerge, vimdiff, and many more.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "recursive",
+      "rank_of_evidence": 2,
+      "top3": [
+        {
+          "page": 23,
+          "distance": 0.3177,
+          "hit": false,
+          "text": "you can view any of these diffs in software like emerge, vimdiff and many more\n                 (including commercial products). Run git difftool --tool-help to"
+        },
+        {
+          "page": 23,
+          "distance": 0.3866,
+          "hit": true,
+          "text": "We will continue to use the git diff command in various ways throughout the rest\n                 of the book. There is another way to look at these diffs if yo"
+        },
+        {
+          "page": 20,
+          "distance": 0.3981,
+          "hit": false,
+          "text": "changed but not yet staged? And what have you staged that you are about to commit? Although git\nstatus answers those questions very generally by listing the fil"
+        }
+      ],
+      "answer": "You can view any of these diffs in software like emerge, vimdiff and many more (including commercial products). Run git difftool --tool-help to see what is available on your system.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "character",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 23,
+          "distance": 0.3354,
+          "hit": true,
+          "text": "external diff viewing program instead. If you run git difftool instead of git diff,\n                 you can view any of these diffs in software like emerge, vi"
+        },
+        {
+          "page": 23,
+          "distance": 0.4028,
+          "hit": false,
+          "text": "35 Git Diff in an External Tool\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                                                                           "
+        },
+        {
+          "page": 20,
+          "distance": 0.4295,
+          "hit": false,
+          "text": "git diff command.                      git diff in more\ndetail later, but you’ll probably use it most often to answer these two questions: What have you\nchanged"
+        }
+      ],
+      "answer": "You can view any of these diffs in software like emerge, vimdiff and many more (including commercial products). Run git difftool --tool-help to see what is available on your system.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "semantic",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 23,
+          "distance": 0.4348,
+          "hit": true,
+          "text": "35 Git Diff in an External Tool\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                                                                           "
+        },
+        {
+          "page": 21,
+          "distance": 0.4524,
+          "hit": false,
+          "text": "+merged in. Also, split your changes into comprehensive chunks if your patch is\n  +longer than a dozen lines. If you are starting to work on a particular area, "
+        },
+        {
+          "page": 13,
+          "distance": 0.4623,
+          "hit": false,
+          "text": "See Git Internals for"
+        }
+      ],
+      "answer": "You can view any of these diffs in software like emerge, vimdiff and many more (including commercial products). Run git difftool --tool-help to see what is available on your system.",
+      "answer_correct": true
+    }
+  ],
+  "How do you remove a file from the staging area but keep it on your hard drive?": [
+    {
+      "chunker": "paragraph",
+      "rank_of_evidence": 7,
+      "top3": [
+        {
+          "page": 25,
+          "distance": 0.3372,
+          "hit": false,
+          "text": "Another useful thing you may want to do is to keep the file in your working tree but remove it from your staging area. In other words, you may want to keep the "
+        },
+        {
+          "page": 25,
+          "distance": 0.3632,
+          "hit": false,
+          "text": "If you simply remove the file from your working directory, it shows up under the “Changes not staged for commit” (that is, unstaged) area of your git status out"
+        },
+        {
+          "page": 25,
+          "distance": 0.3786,
+          "hit": false,
+          "text": "Removing Files from your staging area) and then commit. The git rm command does that, and also removes the file from your working directory so you don’t see it "
+        }
+      ],
+      "answer": "According to the context, you can remove the file from your staging area and keep it on your hard drive by using the `git rm` command.",
+      "answer_correct": false
+    },
+    {
+      "chunker": "recursive",
+      "rank_of_evidence": null,
+      "top3": [
+        {
+          "page": 34,
+          "distance": 0.2771,
+          "hit": false,
+          "text": "Unstaging a Staged File"
+        },
+        {
+          "page": 25,
+          "distance": 0.3536,
+          "hit": false,
+          "text": "If you simply remove the file from your working directory, it shows up under the “Changes not\nstaged for commit” (that is, unstaged) area of your git status out"
+        },
+        {
+          "page": 25,
+          "distance": 0.3573,
+          "hit": false,
+          "text": "Another useful thing you may want to do is to keep the file in your working tree but remove it from\nyour staging area. In other words, you may want to keep the "
+        }
+      ],
+      "answer": "According to the context, you can remove the file from the staging area while keeping it on your hard drive by removing it from your working directory.",
+      "answer_correct": false
+    },
+    {
+      "chunker": "character",
+      "rank_of_evidence": null,
+      "top3": [
+        {
+          "page": 34,
+          "distance": 0.3919,
+          "hit": false,
+          "text": "aging a Staged File\n\nThe next two sections demonstrate how to work with your staging area and working directory\nchanges. The nice part is that the command you u"
+        },
+        {
+          "page": 25,
+          "distance": 0.4271,
+          "hit": false,
+          "text": "apshot and\nthat can’t be recovered from Git.\n\nAnother useful thing you may want to do is to keep the file in your working tree but remove it from\nyour staging a"
+        },
+        {
+          "page": 23,
+          "distance": 0.4428,
+          "hit": false,
+          "text": "lable on your system.\n\nCommitting Your Changes\n\nNow that your staging area is set up the way you want it, you can commit your changes. Remember\nthat anything th"
+        }
+      ],
+      "answer": "According to the context, you may want to keep the file in your working tree but remove it from your staging area.",
+      "answer_correct": false
+    },
+    {
+      "chunker": "semantic",
+      "rank_of_evidence": 6,
+      "top3": [
+        {
+          "page": 25,
+          "distance": 0.416,
+          "hit": false,
+          "text": "This is convenient, but be careful; sometimes\nthis flag will cause you to include unwanted changes. Removing Files\n\n\n\nfrom your staging area) and then commit. T"
+        },
+        {
+          "page": 34,
+          "distance": 0.4783,
+          "hit": false,
+          "text": "Unstaging a Staged File\n\nThe next two sections demonstrate how to work with your staging area and working directory\nchanges. The nice part is that the command y"
+        },
+        {
+          "page": 17,
+          "distance": 0.515,
+          "hit": false,
+          "text": "29 The\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    (use \"git restore --staged <file>...\""
+        }
+      ],
+      "answer": "According to the context, you can remove the file from your staging area while keeping it on your hard drive by using the `git rm` command.",
+      "answer_correct": false
+    }
+  ],
+  "Which git log option shows the patch introduced with each commit?": [
+    {
+      "chunker": "paragraph",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 31,
+          "distance": 0.2676,
+          "hit": true,
+          "text": "git log Option Description -p Show the patch introduced with each commit. --stat Show statistics for files modified in each commit. --shortstat Display only the"
+        },
+        {
+          "page": 27,
+          "distance": 0.3414,
+          "hit": false,
+          "text": "A huge number and variety of options to the git log command are available to show you exactly what you’re looking for. Here, we’ll show you some of the most pop"
+        },
+        {
+          "page": 32,
+          "distance": 0.3439,
+          "hit": false,
+          "text": "$ git log -- path/to/file In Options to limit the output of git log we’ll list these and a few other common options for your reference. git log Option Descripti"
+        }
+      ],
+      "answer": "-p Show the patch introduced with each commit.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "recursive",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 31,
+          "distance": 0.2965,
+          "hit": true,
+          "text": "git log\n\nOption                   Description\n-p                       Show the patch introduced with each commit.\n\n--stat                   Show statistics for"
+        },
+        {
+          "page": 27,
+          "distance": 0.3262,
+          "hit": false,
+          "text": "A huge number and variety of options to the git log command are available to show you exactly\nwhat you’re looking for. Here, we’ll show you some of the most pop"
+        },
+        {
+          "page": 28,
+          "distance": 0.332,
+          "hit": false,
+          "text": "This option displays the same information but with a diff directly following each entry. This is very\nhelpful for code review or to quickly browse what happened"
+        }
+      ],
+      "answer": "-p",
+      "answer_correct": true
+    },
+    {
+      "chunker": "character",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 31,
+          "distance": 0.3146,
+          "hit": true,
+          "text": "e useful, along with how they change the output of the log command.\n\n                                git log\n\nOption                   Description\n-p           "
+        },
+        {
+          "page": 28,
+          "distance": 0.3242,
+          "hit": false,
+          "text": "40 to show only the last two entries.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOne of the more helpful options is -p or --patch, wh"
+        },
+        {
+          "page": 28,
+          "distance": 0.3897,
+          "hit": false,
+          "text": "s is very\nhelpful for code review or to quickly browse what happened during a series of commits that a\ncollaborator has added. You can also use a series of summ"
+        }
+      ],
+      "answer": "-p or --patch",
+      "answer_correct": true
+    },
+    {
+      "chunker": "semantic",
+      "rank_of_evidence": 5,
+      "top3": [
+        {
+          "page": 28,
+          "distance": 0.3537,
+          "hit": false,
+          "text": "You can also use a series of summarizing options with git log. For\nexample, if you want to see some abbreviated stats for each commit, you can use the --stat op"
+        },
+        {
+          "page": 28,
+          "distance": 0.3928,
+          "hit": false,
+          "text": "40 to show only the last two entries. One of the more helpful options is -p or --patch, which shows the difference (the patch output)\nintroduced in each commit."
+        },
+        {
+          "page": 29,
+          "distance": 0.4018,
+          "hit": false,
+          "text": "Another really useful option is --pretty. This option changes the log output to formats other than\nthe default. A few prebuilt option values are available for y"
+        }
+      ],
+      "answer": "-p or --patch",
+      "answer_correct": true
+    }
+  ],
+  "What is the git log -S option colloquially called?": [
+    {
+      "chunker": "paragraph",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 32,
+          "distance": 0.378,
+          "hit": true,
+          "text": "Another really helpful filter is the -S option (colloquially referred to as Git’s “pickaxe” option), which takes a string and shows only those commits that chan"
+        },
+        {
+          "page": 32,
+          "distance": 0.4024,
+          "hit": false,
+          "text": "$ git log -S function_name The last really useful option to pass to git log as a filter is a path. If you specify a directory or file name, you can limit the lo"
+        },
+        {
+          "page": 31,
+          "distance": 0.4043,
+          "hit": false,
+          "text": "git log Option Description -p Show the patch introduced with each commit. --stat Show statistics for files modified in each commit. --shortstat Display only the"
+        }
+      ],
+      "answer": "Git’s “pickaxe” option.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "recursive",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 32,
+          "distance": 0.3821,
+          "hit": true,
+          "text": "Another really helpful filter is the -S option (colloquially referred to as Git’s “pickaxe” option),\nwhich takes a string and shows only those commits that chan"
+        },
+        {
+          "page": 32,
+          "distance": 0.388,
+          "hit": false,
+          "text": "$ git log -S function_name\n\n\nThe last really useful option to pass to git log as a filter is a path. If you specify a directory or file\nname, you can limit the "
+        },
+        {
+          "page": 32,
+          "distance": 0.3968,
+          "hit": false,
+          "text": "string.\n-S                                       Only show commits adding or removing code matching the\n                                         string."
+        }
+      ],
+      "answer": "Git’s “pickaxe” option.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "character",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 32,
+          "distance": 0.4114,
+          "hit": true,
+          "text": "all --grep\n\n\n\nAnother really helpful filter is the -S option (colloquially referred to as Git’s “pickaxe” option),\nwhich takes a string and shows only those com"
+        },
+        {
+          "page": 32,
+          "distance": 0.4175,
+          "hit": false,
+          "text": "ded or removed a reference to a\nspecific function, you could call:\n\n\n  $ git log -S function_name\n\n\nThe last really useful option to pass to git log as a filter"
+        },
+        {
+          "page": 31,
+          "distance": 0.4267,
+          "hit": false,
+          "text": "where you specify your own format).\n--oneline                Shorthand for --pretty=oneline --abbrev-commit used together.\n\n\nLimiting Log Output\n\nIn addition to"
+        }
+      ],
+      "answer": "The -S option is colloquially referred to as Git’s “pickaxe” option.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "semantic",
+      "rank_of_evidence": 2,
+      "top3": [
+        {
+          "page": 28,
+          "distance": 0.4123,
+          "hit": false,
+          "text": "You can also use a series of summarizing options with git log. For\nexample, if you want to see some abbreviated stats for each commit, you can use the --stat op"
+        },
+        {
+          "page": 32,
+          "distance": 0.4203,
+          "hit": true,
+          "text": "The --author option allows\nyou to filter on a specific author, and the --grep option lets you search for keywords in the commit\nmessages. You can specify more t"
+        },
+        {
+          "page": 29,
+          "distance": 0.4412,
+          "hit": false,
+          "text": "Another really useful option is --pretty. This option changes the log output to formats other than\nthe default. A few prebuilt option values are available for y"
+        }
+      ],
+      "answer": "The -S option is colloquially referred to as Git’s “pickaxe” option.",
+      "answer_correct": true
+    }
+  ],
+  "How do you prevent merge commits from cluttering up the git log history?": [
+    {
+      "chunker": "paragraph",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 33,
+          "distance": 0.1651,
+          "hit": true,
+          "text": "To prevent the display of merge commits cluttering up your log history, simply add the log option --no-merges."
+        },
+        {
+          "page": 33,
+          "distance": 0.3809,
+          "hit": false,
+          "text": "45 Preventing the display of merge commits can run something like this: $ git log --pretty=\"%h - %s\" --author='Junio C Hamano' --since=\"2008-10-01\" \\ --before=\""
+        },
+        {
+          "page": 30,
+          "distance": 0.3973,
+          "hit": false,
+          "text": "$ git log --pretty=format:\"%h %s\" --graph * 2d3acf9 Ignore errors from SIGCHLD on trap * 5e3ee11 Merge branch 'master' of https://github.com/dustin/grit.git |\\ "
+        }
+      ],
+      "answer": "Simply add the log option --no-merges.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "recursive",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 33,
+          "distance": 0.2365,
+          "hit": true,
+          "text": "cluttering up your log history, simply add the log option --no-merges."
+        },
+        {
+          "page": 33,
+          "distance": 0.281,
+          "hit": false,
+          "text": "Depending on the workflow used in your repository, it’s possible that a sizable\n               percentage of the commits in your log history are just merge com"
+        },
+        {
+          "page": 30,
+          "distance": 0.4072,
+          "hit": false,
+          "text": "$ git log --pretty=format:\"%h %s\" --graph\n  * 2d3acf9 Ignore errors from SIGCHLD on trap\n  *  5e3ee11 Merge branch 'master' of https://github.com/dustin/grit.gi"
+        }
+      ],
+      "answer": "According to the context, you can prevent the display of merge commits by adding the log option `--no-merges`.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "character",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 33,
+          "distance": 0.315,
+          "hit": true,
+          "text": "entage of the commits in your log history are just merge commits, which\n                typically aren’t very informative. To prevent the display of merge commi"
+        },
+        {
+          "page": 33,
+          "distance": 0.3932,
+          "hit": false,
+          "text": "45 Preventing the display of merge commits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncan run something like this:\n\n\n  $ git log --pretty=\"%h - %s\" --author='Junio C Hamano' -"
+        },
+        {
+          "page": 30,
+          "distance": 0.3934,
+          "hit": false,
+          "text": ":\n\n\n  $ git log --pretty=format:\"%h %s\" --graph\n  * 2d3acf9 Ignore errors from SIGCHLD on trap\n  *  5e3ee11 Merge branch 'master' of https://github.com/dustin/g"
+        }
+      ],
+      "answer": "To prevent the display of merge commits cluttering up your log history, simply add the log option --no-merges.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "semantic",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 33,
+          "distance": 0.2988,
+          "hit": true,
+          "text": "45 Preventing the display of merge commits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncan run something like this:\n\n\n  $ git log --pretty=\"%h - %s\" --author='Junio C Hamano' -"
+        },
+        {
+          "page": 22,
+          "distance": 0.436,
+          "hit": false,
+          "text": "+merged in. Also, split your changes into comprehensive chunks if your patch is\n  +longer than a dozen lines."
+        },
+        {
+          "page": 28,
+          "distance": 0.4576,
+          "hit": false,
+          "text": "You can also use a series of summarizing options with git log. For\nexample, if you want to see some abbreviated stats for each commit, you can use the --stat op"
+        }
+      ],
+      "answer": "To prevent the display of merge commits cluttering up your log history, simply add the log option --no-merges.",
+      "answer_correct": true
+    }
+  ],
+  "How do you redo your last commit after forgetting to add some files?": [
+    {
+      "chunker": "paragraph",
+      "rank_of_evidence": 3,
+      "top3": [
+        {
+          "page": 33,
+          "distance": 0.2516,
+          "hit": false,
+          "text": "As an example, if you commit and then realize you forgot to stage the changes in a file you wanted to add to this commit, you can do something like this:"
+        },
+        {
+          "page": 33,
+          "distance": 0.2959,
+          "hit": false,
+          "text": "$ git commit -m 'Initial commit' $ git add forgotten_file"
+        },
+        {
+          "page": 33,
+          "distance": 0.2987,
+          "hit": true,
+          "text": "One of the common undos takes place when you commit too early and possibly forget to add some files, or you mess up your commit message. If you want to redo tha"
+        }
+      ],
+      "answer": "Make the additional changes you forgot, stage them, and commit again using the --amend option.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "recursive",
+      "rank_of_evidence": 3,
+      "top3": [
+        {
+          "page": 33,
+          "distance": 0.3102,
+          "hit": false,
+          "text": "$ git commit -m 'Initial commit'\n  $ git add forgotten_file"
+        },
+        {
+          "page": 18,
+          "distance": 0.3114,
+          "hit": false,
+          "text": "go into the commit, not the version of the file as it looks in your working directory when you run\ngit commit. If you modify a file after you run git add, you h"
+        },
+        {
+          "page": 33,
+          "distance": 0.3142,
+          "hit": true,
+          "text": "One of the common undos takes place when you commit too early and possibly forget to add some\nfiles, or you mess up your commit message. If you want to redo tha"
+        }
+      ],
+      "answer": "Make the additional changes you forgot, stage them, and commit again using the --amend option.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "character",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 33,
+          "distance": 0.2669,
+          "hit": true,
+          "text": "nd possibly forget to add some\nfiles, or you mess up your commit message. If you want to redo that commit, make the additional\nchanges you forgot, stage them, a"
+        },
+        {
+          "page": 24,
+          "distance": 0.3492,
+          "hit": false,
+          "text": "ery file that is already tracked before doing the commit, letting you skip\nthe git add part:\n\n\n  $ git status\n  On branch master\n  Your branch is up-to-date wit"
+        },
+        {
+          "page": 33,
+          "distance": 0.3528,
+          "hit": false,
+          "text": "revious\ncommit. You can edit the message the same as always, but it overwrites your previous commit.\n\nAs an example, if you commit and then realize you forgot t"
+        }
+      ],
+      "answer": "You can stage the additional changes you forgot, and commit again using the --amend option: \n\n$ git commit --amend",
+      "answer_correct": true
+    },
+    {
+      "chunker": "semantic",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 33,
+          "distance": 0.3653,
+          "hit": true,
+          "text": "Here, we’ll review a few basic tools for undoing\nchanges that you’ve made. Be careful, because you can’t always undo some of these undos. This is\none of the few"
+        },
+        {
+          "page": 18,
+          "distance": 0.4098,
+          "hit": false,
+          "text": "30 modified:   CONTRIBUTING.md\n\n\nBoth files are staged and will go into your next commit. At this point, suppose you remember one\nlittle change that you want to"
+        },
+        {
+          "page": 17,
+          "distance": 0.4462,
+          "hit": false,
+          "text": "You may recall that when you ran git init earlier, you then ran git\nadd <files> — that was to begin tracking files in your directory. git add command takes a pa"
+        }
+      ],
+      "answer": "Make the additional changes you forgot, stage them, and commit again using the --amend option: `$ git commit --amend`.",
+      "answer_correct": true
+    }
+  ],
+  "Which Git version introduced the git restore command?": [
+    {
+      "chunker": "paragraph",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 36,
+          "distance": 0.312,
+          "hit": true,
+          "text": "Undoing things with git restore Git version 2.23.0 introduced a new command: git restore. It’s basically an alternative to git reset git restore instead of git "
+        },
+        {
+          "page": 36,
+          "distance": 0.3927,
+          "hit": false,
+          "text": "$ git restore --staged CONTRIBUTING.md $ git status On branch master Changes to be committed: (use \"git restore --staged <file>...\" to unstage) renamed: README."
+        },
+        {
+          "page": 36,
+          "distance": 0.4358,
+          "hit": false,
+          "text": "Let’s retrace our steps, and undo things with git restore instead of git reset. Unstaging a Staged File with git restore The next two sections demonstrate how t"
+        }
+      ],
+      "answer": "Git version 2.23.0",
+      "answer_correct": true
+    },
+    {
+      "chunker": "recursive",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 36,
+          "distance": 0.3361,
+          "hit": true,
+          "text": "Undoing things with git restore\n\nGit version 2.23.0 introduced a new command: git restore. It’s basically an alternative to git reset\n                          "
+        },
+        {
+          "page": 36,
+          "distance": 0.4067,
+          "hit": false,
+          "text": "$ git restore --staged CONTRIBUTING.md\n  $ git status\n  On branch master\n  Changes to be committed:\n    (use \"git restore --staged <file>...\" to unstage)\n      "
+        },
+        {
+          "page": 37,
+          "distance": 0.4124,
+          "hit": false,
+          "text": "$ git restore CONTRIBUTING.md\n  $ git status\n  On branch master\n  Changes to be committed:\n    (use \"git restore --staged <file>...\" to unstage)\n      renamed: "
+        }
+      ],
+      "answer": "Git version 2.23.0 introduced the git restore command.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "character",
+      "rank_of_evidence": 2,
+      "top3": [
+        {
+          "page": 36,
+          "distance": 0.4179,
+          "hit": false,
+          "text": "etrace our steps, and undo things with git restore instead of git reset.\n\n\nUnstaging a Staged File with git restore\n\nThe next two sections demonstrate how to wo"
+        },
+        {
+          "page": 36,
+          "distance": 0.4286,
+          "hit": true,
+          "text": "seen again.\n\nUndoing things with git restore\n\nGit version 2.23.0 introduced a new command: git restore. It’s basically an alternative to git reset\n             "
+        },
+        {
+          "page": 37,
+          "distance": 0.4627,
+          "hit": false,
+          "text": "e committed:\n    (use \"git restore --staged <file>...\" to unstage)\n      renamed:    README.md -> README\n\n\n\n                 It’s important to understand that g"
+        }
+      ],
+      "answer": "Git version 2.23.0 introduced the git restore command.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "semantic",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 36,
+          "distance": 0.451,
+          "hit": true,
+          "text": "The\n\n\n\n                 absolutely know that you don’t want those unsaved local changes. If you would like to keep the changes you’ve made to that file but stil"
+        },
+        {
+          "page": 13,
+          "distance": 0.4795,
+          "hit": false,
+          "text": "See Git Internals for"
+        },
+        {
+          "page": 36,
+          "distance": 0.5011,
+          "hit": false,
+          "text": "48 which we just covered. From Git version 2.23.0 onwards, Git will use\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                                          "
+        }
+      ],
+      "answer": "Git version 2.23.0 introduced the git restore command.",
+      "answer_correct": true
+    }
+  ],
+  "What name does git clone give to the remote repository automatically?": [
+    {
+      "chunker": "paragraph",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 39,
+          "distance": 0.3633,
+          "hit": true,
+          "text": "If you clone a repository, the command automatically adds that remote repository under the name “origin”. So, git fetch origin fetches any new work that has bee"
+        },
+        {
+          "page": 14,
+          "distance": 0.3633,
+          "hit": false,
+          "text": "If you want to clone the repository into a directory named something other than libgit2, you can specify the new directory name as an additional argument:"
+        },
+        {
+          "page": 38,
+          "distance": 0.3927,
+          "hit": false,
+          "text": "Showing Your Remotes To see which remote servers you have configured, you can run the git remote command. shortnames of each remote handle you’ve specified. If "
+        }
+      ],
+      "answer": "According to the context, git clone automatically adds the remote repository under the name “origin”.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "recursive",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 39,
+          "distance": 0.3651,
+          "hit": true,
+          "text": "If you clone a repository, the command automatically adds that remote repository under the name\n“origin”. So, git fetch origin fetches any new work that has bee"
+        },
+        {
+          "page": 14,
+          "distance": 0.3805,
+          "hit": false,
+          "text": "If you want to clone the repository into a directory named something other than libgit2, you can\nspecify the new directory name as an additional argument:\n\n\n  $"
+        },
+        {
+          "page": 38,
+          "distance": 0.41,
+          "hit": false,
+          "text": "Showing Your Remotes\n\nTo see which remote servers you have configured, you can run the git remote command.\nshortnames of each remote handle you’ve specified. If"
+        }
+      ],
+      "answer": "The command “git clone” automatically adds the remote repository under the name “origin”.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "character",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 39,
+          "distance": 0.4154,
+          "hit": true,
+          "text": "have references to all the branches from that\nremote, which you can merge in or inspect at any time.\n\nIf you clone a repository, the command automatically adds "
+        },
+        {
+          "page": 14,
+          "distance": 0.447,
+          "hit": false,
+          "text": "to — the command you need is               git clone. If you’re familiar with other VCSs such as\nSubversion, you’ll notice that the command is \"clone\" and not \""
+        },
+        {
+          "page": 14,
+          "distance": 0.46,
+          "hit": false,
+          "text": "r\nused.\n\nIf you want to clone the repository into a directory named something other than libgit2, you can\nspecify the new directory name as an additional argume"
+        }
+      ],
+      "answer": "The remote repository is automatically added under the name “origin”.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "semantic",
+      "rank_of_evidence": null,
+      "top3": [
+        {
+          "page": 13,
+          "distance": 0.5032,
+          "hit": false,
+          "text": "See Git Internals for"
+        },
+        {
+          "page": 39,
+          "distance": 0.5144,
+          "hit": false,
+          "text": "51 To add a new remote Git\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nServer. Adding Remote Repositories\n\nWe’ve mentioned and given some demons"
+        },
+        {
+          "page": 14,
+          "distance": 0.5225,
+          "hit": false,
+          "text": "26 If you want to start version-controlling existing files (as opposed to an empty directory), you should\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+        }
+      ],
+      "answer": "The context states that git clone implicitly adds the origin remote for you. It does not specify a different name.",
+      "answer_correct": true
+    }
+  ],
+  "Why is git checkout -- <file> considered risky?": [
+    {
+      "chunker": "paragraph",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 35,
+          "distance": 0.3647,
+          "hit": true,
+          "text": "renamed: README.md -> README You can see that the changes have been reverted. It’s important to understand that git checkout -- <file> is a dangerous command. "
+        },
+        {
+          "page": 37,
+          "distance": 0.4012,
+          "hit": true,
+          "text": "It’s important to understand that git restore <file> is a dangerous command. Any local changes you made to that file are gone — Git just replaced that file with"
+        },
+        {
+          "page": 35,
+          "distance": 0.4125,
+          "hit": false,
+          "text": "modified: CONTRIBUTING.md The command is a bit strange, but it works. The CONTRIBUTING.md file is modified but once again unstaged. It’s true that git reset can"
+        }
+      ],
+      "answer": "According to the context, git checkout -- <file> is considered risky because it replaces any local changes you made to that file with the last staged or committed version, effectively discarding your local modifications.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "recursive",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 35,
+          "distance": 0.2951,
+          "hit": true,
+          "text": "It’s important to understand that git checkout -- <file> is a dangerous command.\n                Any local changes you made to that file are gone — Git just re"
+        },
+        {
+          "page": 35,
+          "distance": 0.3878,
+          "hit": false,
+          "text": "It’s true that git reset can be a dangerous command, especially if you provide the\n                --hard flag. However, in the scenario described above, the f"
+        },
+        {
+          "page": 3,
+          "distance": 0.4428,
+          "hit": false,
+          "text": "information in transit or get file corruption without Git being able to detect it."
+        }
+      ],
+      "answer": "It’s important to understand that git checkout -- <file> is a dangerous command. Any local changes you made to that file are gone — Git just replaced that file with the last staged or committed version.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "character",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 35,
+          "distance": 0.2736,
+          "hit": true,
+          "text": "’s important to understand that git checkout -- <file> is a dangerous command.\n                Any local changes you made to that file are gone — Git just repl"
+        },
+        {
+          "page": 35,
+          "distance": 0.456,
+          "hit": false,
+          "text": "s relatively safe.\n\n\nFor now this magic invocation is all you need to know about the git reset command. We’ll go into\nmuch more detail about what reset does and"
+        },
+        {
+          "page": 35,
+          "distance": 0.473,
+          "hit": false,
+          "text": "the unstaged area looks like this:\n\n\n  Changes not staged for commit:\n    (use \"git add <file>...\" to update what will be committed)\n    (use \"git checkout -- <"
+        }
+      ],
+      "answer": "According to the context, “git checkout -- <file> is a dangerous command.” Any local changes you made to that file are gone – Git just replaces that file with the last staged or committed version.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "semantic",
+      "rank_of_evidence": 2,
+      "top3": [
+        {
+          "page": 35,
+          "distance": 0.4644,
+          "hit": false,
+          "text": "47 renamed:    README.md -> README\n\n  Changes not staged for commit:\n    (use \"git add <file>...\" to update what will be committed)\n    (use \"git checkout -- <f"
+        },
+        {
+          "page": 35,
+          "distance": 0.4768,
+          "hit": true,
+          "text": "How can\nyou easily unmodify it — revert it back to what it looked like when you last committed (or initially\ncloned, or however you got it into your working dir"
+        },
+        {
+          "page": 13,
+          "distance": 0.5091,
+          "hit": false,
+          "text": "See Git Internals for"
+        }
+      ],
+      "answer": "According to the context, `git checkout -- <file>` is considered risky because any local changes you made to that file are gone – Git just replaces that file with the last staged or committed version.",
+      "answer_correct": true
+    }
+  ],
+  "Who is the author of the commits shown in the git log example?": [
+    {
+      "chunker": "paragraph",
+      "rank_of_evidence": 7,
+      "top3": [
+        {
+          "page": 27,
+          "distance": 0.3889,
+          "hit": false,
+          "text": "As you can see, this command lists each commit with its SHA-1 checksum, the author’s name and email, the date written, and the commit message."
+        },
+        {
+          "page": 27,
+          "distance": 0.3897,
+          "hit": false,
+          "text": "Viewing the Commit History After you have created several commits, or if you have cloned a repository with an existing commit history, you’ll probably want to l"
+        },
+        {
+          "page": 10,
+          "distance": 0.4046,
+          "hit": false,
+          "text": "In cases like that, you can query Git as to the origin for that  value, and it will tell you which configuration file had the final say in setting that value:"
+        }
+      ],
+      "answer": "The author’s name and email are shown in the git log example.",
+      "answer_correct": false
+    },
+    {
+      "chunker": "recursive",
+      "rank_of_evidence": 3,
+      "top3": [
+        {
+          "page": 27,
+          "distance": 0.3825,
+          "hit": false,
+          "text": "Initial commit\n\n\nBy default, with no arguments, git log lists the commits made in that repository in reverse\nchronological order; that is, the most recent commi"
+        },
+        {
+          "page": 32,
+          "distance": 0.4011,
+          "hit": false,
+          "text": "For example, if you want to see which commits modifying test files in the Git source code history\nwere committed by Junio Hamano in the month of October 2008 an"
+        },
+        {
+          "page": 27,
+          "distance": 0.4079,
+          "hit": true,
+          "text": "$ git log\n  commit ca82a6dff817ec66f44342007202690a93763949\n  Author: Scott Chacon <schacon@gee-mail.com>\n  Date:   Mon Mar 17 21:52:11 2008 -0700\n\n      Change"
+        }
+      ],
+      "answer": "Scott Chacon <schacon@gee-mail.com>",
+      "answer_correct": true
+    },
+    {
+      "chunker": "character",
+      "rank_of_evidence": 5,
+      "top3": [
+        {
+          "page": 27,
+          "distance": 0.3494,
+          "hit": false,
+          "text": "owerful\ntool to do this is the git log command.\n\nThese examples use a very simple project called “simplegit”. To get the project, run:\n\n\n  $ git clone https://g"
+        },
+        {
+          "page": 27,
+          "distance": 0.3616,
+          "hit": false,
+          "text": "gical order; that is, the most recent commits show up first. As you can see, this command\nlists each commit with its SHA-1 checksum, the author’s name and email"
+        },
+        {
+          "page": 30,
+          "distance": 0.4166,
+          "hit": false,
+          "text": ":\n\n\n  $ git log --pretty=format:\"%h %s\" --graph\n  * 2d3acf9 Ignore errors from SIGCHLD on trap\n  *  5e3ee11 Merge branch 'master' of https://github.com/dustin/g"
+        }
+      ],
+      "answer": "The author’s name and email are listed in the output of the git log command.",
+      "answer_correct": false
+    },
+    {
+      "chunker": "semantic",
+      "rank_of_evidence": 1,
+      "top3": [
+        {
+          "page": 27,
+          "distance": 0.342,
+          "hit": true,
+          "text": "The most basic and powerful\ntool to do this is the git log command. These examples use a very simple project called “simplegit”. To get the project, run:\n\n\n  $ "
+        },
+        {
+          "page": 30,
+          "distance": 0.3883,
+          "hit": false,
+          "text": "Table 1. Useful specifiers for\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  $ git log --pretty=format:\"%h - %an, %ar : %s\"\n  ca82a6d - Scott Chacon, 6 years"
+        },
+        {
+          "page": 28,
+          "distance": 0.4172,
+          "hit": false,
+          "text": "You can also use a series of summarizing options with git log. For\nexample, if you want to see some abbreviated stats for each commit, you can use the --stat op"
+        }
+      ],
+      "answer": "Scott Chacon",
+      "answer_correct": true
+    }
+  ],
+  "What does the --relative-date option of git log do?": [
+    {
+      "chunker": "paragraph",
+      "rank_of_evidence": 2,
+      "top3": [
+        {
+          "page": 31,
+          "distance": 0.2927,
+          "hit": false,
+          "text": "$ git log --since=2.weeks This command works with lots of formats — you can specify a specific date like \"2008-01-15\", or a relative date such as \"2 years 1 day"
+        },
+        {
+          "page": 31,
+          "distance": 0.3773,
+          "hit": true,
+          "text": "--abbrev-commit Show only the first few characters of the SHA-1 checksum instead of all 40. --relative-date Display the date in a relative format (for example, "
+        },
+        {
+          "page": 32,
+          "distance": 0.3921,
+          "hit": false,
+          "text": "$ git log -- path/to/file In Options to limit the output of git log we’ll list these and a few other common options for your reference. git log Option Descripti"
+        }
+      ],
+      "answer": "The --relative-date option displays the date in a relative format (for example, “2 weeks ago”) instead of using the full date format.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "recursive",
+      "rank_of_evidence": 2,
+      "top3": [
+        {
+          "page": 31,
+          "distance": 0.3318,
+          "hit": false,
+          "text": "$ git log --since=2.weeks\n\n\nThis command works with lots of formats — you can specify a specific date like                      \"2008-01-15\", or a\nrelative date"
+        },
+        {
+          "page": 31,
+          "distance": 0.3324,
+          "hit": true,
+          "text": "--relative-date          Display the date in a relative format (for example, “2 weeks ago”) instead of\n                         using the full date format.\n--gr"
+        },
+        {
+          "page": 27,
+          "distance": 0.3964,
+          "hit": false,
+          "text": "A huge number and variety of options to the git log command are available to show you exactly\nwhat you’re looking for. Here, we’ll show you some of the most pop"
+        }
+      ],
+      "answer": "The --relative-date option displays the date in a relative format (for example, “2 weeks ago”) instead of using the full date format.",
+      "answer_correct": true
+    },
+    {
+      "chunker": "character",
+      "rank_of_evidence": 6,
+      "top3": [
+        {
+          "page": 32,
+          "distance": 0.4009,
+          "hit": false,
+          "text": "t log\n\nOption                                   Description\n-<n>                                     Show only the last n commits.\n\n--since, --after            "
+        },
+        {
+          "page": 32,
+          "distance": 0.4225,
+          "hit": false,
+          "text": "s always\nthe last option and is generally preceded by double dashes (--) to separate the paths from the\noptions:\n\n\n  $ git log -- path/to/file\n\n\nIn Options to l"
+        },
+        {
+          "page": 31,
+          "distance": 0.4237,
+          "hit": false,
+          "text": "e useful, along with how they change the output of the log command.\n\n                                git log\n\nOption                   Description\n-p           "
+        }
+      ],
+      "answer": "I don't know.",
+      "answer_correct": false
+    },
+    {
+      "chunker": "semantic",
+      "rank_of_evidence": 3,
+      "top3": [
+        {
+          "page": 31,
+          "distance": 0.4151,
+          "hit": false,
+          "text": "You’ve seen one such option already — the                          -2\n                                                                                     -<n>,"
+        },
+        {
+          "page": 28,
+          "distance": 0.4168,
+          "hit": false,
+          "text": "You can also use a series of summarizing options with git log. For\nexample, if you want to see some abbreviated stats for each commit, you can use the --stat op"
+        },
+        {
+          "page": 31,
+          "distance": 0.446,
+          "hit": true,
+          "text": "43 Table 2. Common options to\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  * | 5a09431 Add timeout protection to grit\n  * | e1193f8 Support for heads with slashes in the"
+        }
+      ],
+      "answer": "Display the date in a relative format (for example, “2 weeks ago”) instead of using the full date format.",
+      "answer_correct": true
+    }
+  ]
+}

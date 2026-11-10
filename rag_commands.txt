@@ -1,0 +1,159 @@
+=====================================================================
+ LOCAL PDF RAG PROJECT - COMMAND CHEAT SHEET  (Windows / PowerShell)
+ Stack: Ollama (gemma3:4b + embeddinggemma) + ChromaDB + pypdf
+ Project folder: C:\Users\Sathvik\Downloads\chromadb
+=====================================================================
+
+
+---------------------------------------------------------------------
+ 1. START / STOP OLLAMA
+---------------------------------------------------------------------
+
+# Start Ollama:
+#   Windows key -> type "Ollama" -> Enter  (llama icon appears in the tray)
+
+# Check it is running (browser):
+#   open http://localhost:11434   -> should say "Ollama is running"
+
+# Check it is running (terminal; prints models if the server is up):
+ollama list
+
+# Quit Ollama:
+#   Tray (^ arrow) -> right-click llama icon -> Quit Ollama
+#   or: Ctrl+Shift+Esc -> Task Manager -> Ollama -> End task
+
+# Unload a model from GPU memory without quitting Ollama:
+ollama stop gemma3:4b
+
+
+---------------------------------------------------------------------
+ 2. OLLAMA MODEL COMMANDS
+---------------------------------------------------------------------
+
+ollama --version                 # check installation
+ollama pull embeddinggemma       # embedding model (~621 MB) - makes vectors
+ollama pull gemma3:4b            # chat model (~3.4 GB) - writes answers
+ollama list                      # downloaded models
+ollama ps                        # models currently loaded (see CPU/GPU use)
+ollama run gemma3:4b             # chat in the terminal   (/bye to exit)
+ollama rm <model>                # delete a model
+
+# If "ollama" is not recognized: close and reopen VS Code (PATH refresh).
+
+
+---------------------------------------------------------------------
+ 3. PYTHON ENVIRONMENT (one-time setup)
+---------------------------------------------------------------------
+
+cd C:\Users\Sathvik\Downloads\chromadb
+
+# Create the virtual environment (only once):
+python -m venv venv
+
+# Activate it (every new terminal; "(venv)" should appear):
+venv\Scripts\Activate.ps1
+
+# Install libraries (only once):
+pip install chromadb ollama pypdf matplotlib
+
+# If activation is blocked by PowerShell policy:
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+
+
+---------------------------------------------------------------------
+ 4. PROJECT STRUCTURE
+---------------------------------------------------------------------
+
+chromadb/
+  data/              <- put the PDF here, named doc.pdf
+  loaders/
+    __init__.py      <- picks loader by file extension
+    pdf_loader.py    <- PDF -> text records
+  chroma_db/         <- created automatically (stored vectors)
+  config.py          <- models, chunk limits, TOP_K
+  chunker.py         <- paragraph chunks + content-hash IDs
+  store.py           <- embeddings + ChromaDB
+  rag.py             <- retrieve + ask Gemma
+  main.py            <- the commands below
+  compare.py         <- table + chart from timings.csv
+  timings.csv        <- created automatically (one row per ingest)
+
+
+---------------------------------------------------------------------
+ 5. RUNNING THE PROJECT
+---------------------------------------------------------------------
+
+# Make sure Ollama is running first (section 1).
+
+# Ingest a PDF (incremental: embeds only new/changed chunks):
+python main.py ingest data/doc.pdf
+
+# Full rebuild (old way: re-embeds everything; used as the baseline):
+python main.py ingest data/doc.pdf --full
+
+# Add a label to the run (shows up in timings.csv and the chart):
+python main.py ingest data/doc.pdf --label my-run-name
+
+# Ask questions (prints retrieved chunks + distances, then the answer):
+python main.py ask
+#   type "exit" to quit
+
+# If the filename has spaces, use quotes:
+python main.py ingest "data/Autobiography of Sai Sathvik.pdf"
+
+
+---------------------------------------------------------------------
+ 6. THE TIMING EXPERIMENT (old PDF vs new PDF with one added paragraph)
+---------------------------------------------------------------------
+# IMPORTANT: both versions must have the SAME filename (data/doc.pdf).
+# The filename is the document's identity; a new name = a new document.
+
+# Clean start:
+#   delete the chroma_db folder and timings.csv
+#   put the OLD version in data/ as doc.pdf
+
+python main.py ingest data/doc.pdf --full --label original
+python main.py ingest data/doc.pdf --label no-change
+
+# Now replace data/doc.pdf with the NEW version (same name: doc.pdf):
+
+python main.py ingest data/doc.pdf --label add-incremental
+python main.py ingest data/doc.pdf --full --label add-full
+
+# Show the table, the estimate and the chart (saves timing_comparison.png):
+python compare.py
+
+# Expected pattern:
+#   original         embeds ALL chunks
+#   no-change        embeds 0
+#   add-incremental  embeds only the new/changed chunks
+#   add-full         embeds ALL chunks
+
+
+---------------------------------------------------------------------
+ 7. USEFUL EXTRAS
+---------------------------------------------------------------------
+
+# Start over completely (wipe the database):
+Remove-Item -Recurse -Force chroma_db
+Remove-Item timings.csv
+
+# List the files in the data folder (check the exact filename):
+dir data
+
+# Chunk size settings live in config.py:
+#   MIN_CHARS = 150   MAX_CHARS = 350   TOP_K = 3
+# Changing the embedding model or chunk settings means a --full rebuild
+# (delete chroma_db first).
+
+
+---------------------------------------------------------------------
+ 8. QUICK TROUBLESHOOTING
+---------------------------------------------------------------------
+
+FileNotFoundError: data/doc.pdf     -> PDF missing or named differently (dir data)
+'ollama' is not recognized          -> restart VS Code, or reinstall Ollama
+Connection error / refused          -> Ollama app is not running (section 1)
+No text found                       -> PDF is scanned images; needs OCR
+First answer is slow (10-30 s)      -> models loading; later answers are faster
+Same text appears once in the DB    -> identical paragraphs share one hash ID

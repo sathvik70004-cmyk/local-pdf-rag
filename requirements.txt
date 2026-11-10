@@ -1,0 +1,14 @@
+# Local models are served by Ollama (https://ollama.com):
+#   ollama pull embeddinggemma
+#   ollama pull gemma3:4b
+chromadb==1.5.9
+langchain-core==1.7.3
+langchain-community==0.4.2
+langchain-chroma==1.1.0
+langchain-ollama==1.1.0
+langchain-text-splitters==1.1.3
+langchain-experimental==0.4.2   # semantic chunker
+pypdf==6.21.2
+numpy==2.5.4
+matplotlib==3.11.2
+fpdf2==2.9.0                    # experiments only: builds the edited PDF versions

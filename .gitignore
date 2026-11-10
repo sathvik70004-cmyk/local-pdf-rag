@@ -1,0 +1,9 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+chroma_db/
+experiments/_work/
+experiments/_*.txt
+timing_comparison.png
+the_pdfs_store/

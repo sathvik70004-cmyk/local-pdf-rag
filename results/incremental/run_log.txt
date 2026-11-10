@@ -1,0 +1,1080 @@
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker paragraph --label base-full|rep1 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: paragraph | embedding dimension: 768
+Chunks in file: 286 | embedded: 286 | deleted: 0 | skipped: 0
+Load 0.287s | Chunk 0.005s | Embed+store 4.071s | TOTAL 4.363s
+DB total: 286
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker paragraph --label no-change-inc|rep1
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: paragraph | embedding dimension: 768
+Chunks in file: 286 | embedded: 0 | deleted: 0 | skipped: 286
+Load 0.289s | Chunk 0.005s | Embed+store 0.028s | TOTAL 0.322s
+DB total: 286
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker paragraph --label insert-inc|rep1
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: paragraph | embedding dimension: 768
+Chunks in file: 287 | embedded: 18 | deleted: 17 | skipped: 269
+Load 0.290s | Chunk 0.005s | Embed+store 0.489s | TOTAL 0.784s
+DB total: 287
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker paragraph --label insert-full|rep1 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: paragraph | embedding dimension: 768
+Chunks in file: 287 | embedded: 287 | deleted: 287 | skipped: 0
+Load 0.287s | Chunk 0.005s | Embed+store 3.944s | TOTAL 4.236s
+DB total: 287
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker paragraph --label edit-inc|rep1
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: paragraph | embedding dimension: 768
+Chunks in file: 287 | embedded: 1 | deleted: 1 | skipped: 286
+Load 0.278s | Chunk 0.005s | Embed+store 0.157s | TOTAL 0.440s
+DB total: 287
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker paragraph --label edit-full|rep1 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: paragraph | embedding dimension: 768
+Chunks in file: 287 | embedded: 287 | deleted: 287 | skipped: 0
+Load 0.280s | Chunk 0.005s | Embed+store 4.242s | TOTAL 4.526s
+DB total: 287
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker paragraph --label delete-inc|rep1
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: paragraph | embedding dimension: 768
+Chunks in file: 286 | embedded: 20 | deleted: 21 | skipped: 266
+Load 0.280s | Chunk 0.005s | Embed+store 0.641s | TOTAL 0.925s
+DB total: 286
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker paragraph --label delete-full|rep1 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: paragraph | embedding dimension: 768
+Chunks in file: 286 | embedded: 286 | deleted: 286 | skipped: 0
+Load 0.279s | Chunk 0.005s | Embed+store 4.080s | TOTAL 4.364s
+DB total: 286
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker paragraph --label append-inc|rep1
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: paragraph | embedding dimension: 768
+Chunks in file: 287 | embedded: 1 | deleted: 0 | skipped: 286
+Load 0.280s | Chunk 0.005s | Embed+store 0.102s | TOTAL 0.387s
+DB total: 287
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker paragraph --label append-full|rep1 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: paragraph | embedding dimension: 768
+Chunks in file: 287 | embedded: 287 | deleted: 287 | skipped: 0
+Load 0.278s | Chunk 0.006s | Embed+store 4.139s | TOTAL 4.422s
+DB total: 287
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker paragraph --label base-full|rep2 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: paragraph | embedding dimension: 768
+Chunks in file: 286 | embedded: 286 | deleted: 0 | skipped: 0
+Load 0.300s | Chunk 0.005s | Embed+store 3.814s | TOTAL 4.118s
+DB total: 286
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker paragraph --label no-change-inc|rep2
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: paragraph | embedding dimension: 768
+Chunks in file: 286 | embedded: 0 | deleted: 0 | skipped: 286
+Load 0.280s | Chunk 0.005s | Embed+store 0.028s | TOTAL 0.312s
+DB total: 286
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker paragraph --label insert-inc|rep2
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: paragraph | embedding dimension: 768
+Chunks in file: 287 | embedded: 18 | deleted: 17 | skipped: 269
+Load 0.280s | Chunk 0.005s | Embed+store 0.552s | TOTAL 0.836s
+DB total: 287
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker paragraph --label insert-full|rep2 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: paragraph | embedding dimension: 768
+Chunks in file: 287 | embedded: 287 | deleted: 287 | skipped: 0
+Load 0.285s | Chunk 0.005s | Embed+store 4.199s | TOTAL 4.489s
+DB total: 287
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker paragraph --label edit-inc|rep2
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: paragraph | embedding dimension: 768
+Chunks in file: 287 | embedded: 1 | deleted: 1 | skipped: 286
+Load 0.284s | Chunk 0.005s | Embed+store 0.150s | TOTAL 0.439s
+DB total: 287
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker paragraph --label edit-full|rep2 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: paragraph | embedding dimension: 768
+Chunks in file: 287 | embedded: 287 | deleted: 287 | skipped: 0
+Load 0.282s | Chunk 0.006s | Embed+store 4.217s | TOTAL 4.505s
+DB total: 287
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker paragraph --label delete-inc|rep2
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: paragraph | embedding dimension: 768
+Chunks in file: 286 | embedded: 20 | deleted: 21 | skipped: 266
+Load 0.281s | Chunk 0.005s | Embed+store 0.599s | TOTAL 0.885s
+DB total: 286
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker paragraph --label delete-full|rep2 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: paragraph | embedding dimension: 768
+Chunks in file: 286 | embedded: 286 | deleted: 286 | skipped: 0
+Load 0.281s | Chunk 0.005s | Embed+store 4.094s | TOTAL 4.380s
+DB total: 286
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker paragraph --label append-inc|rep2
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: paragraph | embedding dimension: 768
+Chunks in file: 287 | embedded: 1 | deleted: 0 | skipped: 286
+Load 0.273s | Chunk 0.005s | Embed+store 0.130s | TOTAL 0.408s
+DB total: 287
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker paragraph --label append-full|rep2 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: paragraph | embedding dimension: 768
+Chunks in file: 287 | embedded: 287 | deleted: 287 | skipped: 0
+Load 0.282s | Chunk 0.005s | Embed+store 4.072s | TOTAL 4.358s
+DB total: 287
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker paragraph --label base-full|rep3 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: paragraph | embedding dimension: 768
+Chunks in file: 286 | embedded: 286 | deleted: 0 | skipped: 0
+Load 0.276s | Chunk 0.005s | Embed+store 3.953s | TOTAL 4.233s
+DB total: 286
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker paragraph --label no-change-inc|rep3
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: paragraph | embedding dimension: 768
+Chunks in file: 286 | embedded: 0 | deleted: 0 | skipped: 286
+Load 0.275s | Chunk 0.005s | Embed+store 0.027s | TOTAL 0.307s
+DB total: 286
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker paragraph --label insert-inc|rep3
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: paragraph | embedding dimension: 768
+Chunks in file: 287 | embedded: 18 | deleted: 17 | skipped: 269
+Load 0.264s | Chunk 0.005s | Embed+store 0.457s | TOTAL 0.726s
+DB total: 287
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker paragraph --label insert-full|rep3 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: paragraph | embedding dimension: 768
+Chunks in file: 287 | embedded: 287 | deleted: 287 | skipped: 0
+Load 0.262s | Chunk 0.005s | Embed+store 3.634s | TOTAL 3.901s
+DB total: 287
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker paragraph --label edit-inc|rep3
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: paragraph | embedding dimension: 768
+Chunks in file: 287 | embedded: 1 | deleted: 1 | skipped: 286
+Load 0.267s | Chunk 0.005s | Embed+store 0.119s | TOTAL 0.390s
+DB total: 287
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker paragraph --label edit-full|rep3 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: paragraph | embedding dimension: 768
+Chunks in file: 287 | embedded: 287 | deleted: 287 | skipped: 0
+Load 0.274s | Chunk 0.005s | Embed+store 3.904s | TOTAL 4.183s
+DB total: 287
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker paragraph --label delete-inc|rep3
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: paragraph | embedding dimension: 768
+Chunks in file: 286 | embedded: 20 | deleted: 21 | skipped: 266
+Load 0.274s | Chunk 0.005s | Embed+store 0.516s | TOTAL 0.795s
+DB total: 286
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker paragraph --label delete-full|rep3 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: paragraph | embedding dimension: 768
+Chunks in file: 286 | embedded: 286 | deleted: 286 | skipped: 0
+Load 0.263s | Chunk 0.005s | Embed+store 3.606s | TOTAL 3.873s
+DB total: 286
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker paragraph --label append-inc|rep3
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: paragraph | embedding dimension: 768
+Chunks in file: 287 | embedded: 1 | deleted: 0 | skipped: 286
+Load 0.264s | Chunk 0.004s | Embed+store 0.098s | TOTAL 0.366s
+DB total: 287
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker paragraph --label append-full|rep3 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: paragraph | embedding dimension: 768
+Chunks in file: 287 | embedded: 287 | deleted: 287 | skipped: 0
+Load 0.274s | Chunk 0.005s | Embed+store 3.652s | TOTAL 3.930s
+DB total: 287
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker recursive --label base-full|rep1 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: recursive | embedding dimension: 768
+Chunks in file: 281 | embedded: 281 | deleted: 0 | skipped: 0
+Load 0.267s | Chunk 0.003s | Embed+store 3.455s | TOTAL 3.725s
+DB total: 281
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker recursive --label no-change-inc|rep1
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: recursive | embedding dimension: 768
+Chunks in file: 281 | embedded: 0 | deleted: 0 | skipped: 281
+Load 0.267s | Chunk 0.003s | Embed+store 0.026s | TOTAL 0.296s
+DB total: 281
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker recursive --label insert-inc|rep1
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: recursive | embedding dimension: 768
+Chunks in file: 280 | embedded: 21 | deleted: 22 | skipped: 259
+Load 0.266s | Chunk 0.003s | Embed+store 0.605s | TOTAL 0.874s
+DB total: 280
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker recursive --label insert-full|rep1 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: recursive | embedding dimension: 768
+Chunks in file: 280 | embedded: 280 | deleted: 280 | skipped: 0
+Load 0.265s | Chunk 0.003s | Embed+store 3.640s | TOTAL 3.908s
+DB total: 280
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker recursive --label edit-inc|rep1
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: recursive | embedding dimension: 768
+Chunks in file: 280 | embedded: 1 | deleted: 1 | skipped: 279
+Load 0.272s | Chunk 0.003s | Embed+store 0.117s | TOTAL 0.392s
+DB total: 280
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker recursive --label edit-full|rep1 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: recursive | embedding dimension: 768
+Chunks in file: 280 | embedded: 280 | deleted: 280 | skipped: 0
+Load 0.265s | Chunk 0.003s | Embed+store 3.532s | TOTAL 3.801s
+DB total: 280
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker recursive --label delete-inc|rep1
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: recursive | embedding dimension: 768
+Chunks in file: 281 | embedded: 28 | deleted: 27 | skipped: 253
+Load 0.264s | Chunk 0.003s | Embed+store 0.534s | TOTAL 0.802s
+DB total: 281
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker recursive --label delete-full|rep1 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: recursive | embedding dimension: 768
+Chunks in file: 281 | embedded: 281 | deleted: 281 | skipped: 0
+Load 0.267s | Chunk 0.003s | Embed+store 3.633s | TOTAL 3.903s
+DB total: 281
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker recursive --label append-inc|rep1
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: recursive | embedding dimension: 768
+Chunks in file: 281 | embedded: 1 | deleted: 1 | skipped: 280
+Load 0.270s | Chunk 0.003s | Embed+store 0.118s | TOTAL 0.391s
+DB total: 281
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker recursive --label append-full|rep1 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: recursive | embedding dimension: 768
+Chunks in file: 281 | embedded: 281 | deleted: 281 | skipped: 0
+Load 0.264s | Chunk 0.003s | Embed+store 3.685s | TOTAL 3.952s
+DB total: 281
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker recursive --label base-full|rep2 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: recursive | embedding dimension: 768
+Chunks in file: 281 | embedded: 281 | deleted: 0 | skipped: 0
+Load 0.268s | Chunk 0.003s | Embed+store 3.518s | TOTAL 3.789s
+DB total: 281
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker recursive --label no-change-inc|rep2
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: recursive | embedding dimension: 768
+Chunks in file: 281 | embedded: 0 | deleted: 0 | skipped: 281
+Load 0.265s | Chunk 0.003s | Embed+store 0.028s | TOTAL 0.296s
+DB total: 281
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker recursive --label insert-inc|rep2
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: recursive | embedding dimension: 768
+Chunks in file: 280 | embedded: 21 | deleted: 22 | skipped: 259
+Load 0.266s | Chunk 0.003s | Embed+store 0.507s | TOTAL 0.776s
+DB total: 280
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker recursive --label insert-full|rep2 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: recursive | embedding dimension: 768
+Chunks in file: 280 | embedded: 280 | deleted: 280 | skipped: 0
+Load 0.266s | Chunk 0.003s | Embed+store 3.541s | TOTAL 3.809s
+DB total: 280
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker recursive --label edit-inc|rep2
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: recursive | embedding dimension: 768
+Chunks in file: 280 | embedded: 1 | deleted: 1 | skipped: 279
+Load 0.262s | Chunk 0.003s | Embed+store 0.116s | TOTAL 0.382s
+DB total: 280
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker recursive --label edit-full|rep2 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: recursive | embedding dimension: 768
+Chunks in file: 280 | embedded: 280 | deleted: 280 | skipped: 0
+Load 0.268s | Chunk 0.003s | Embed+store 3.614s | TOTAL 3.885s
+DB total: 280
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker recursive --label delete-inc|rep2
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: recursive | embedding dimension: 768
+Chunks in file: 281 | embedded: 28 | deleted: 27 | skipped: 253
+Load 0.262s | Chunk 0.003s | Embed+store 0.546s | TOTAL 0.810s
+DB total: 281
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker recursive --label delete-full|rep2 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: recursive | embedding dimension: 768
+Chunks in file: 281 | embedded: 281 | deleted: 281 | skipped: 0
+Load 0.273s | Chunk 0.003s | Embed+store 3.487s | TOTAL 3.763s
+DB total: 281
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker recursive --label append-inc|rep2
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: recursive | embedding dimension: 768
+Chunks in file: 281 | embedded: 1 | deleted: 1 | skipped: 280
+Load 0.265s | Chunk 0.003s | Embed+store 0.115s | TOTAL 0.383s
+DB total: 281
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker recursive --label append-full|rep2 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: recursive | embedding dimension: 768
+Chunks in file: 281 | embedded: 281 | deleted: 281 | skipped: 0
+Load 0.268s | Chunk 0.003s | Embed+store 3.661s | TOTAL 3.932s
+DB total: 281
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker recursive --label base-full|rep3 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: recursive | embedding dimension: 768
+Chunks in file: 281 | embedded: 281 | deleted: 0 | skipped: 0
+Load 0.276s | Chunk 0.003s | Embed+store 3.547s | TOTAL 3.827s
+DB total: 281
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker recursive --label no-change-inc|rep3
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: recursive | embedding dimension: 768
+Chunks in file: 281 | embedded: 0 | deleted: 0 | skipped: 281
+Load 0.267s | Chunk 0.003s | Embed+store 0.027s | TOTAL 0.297s
+DB total: 281
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker recursive --label insert-inc|rep3
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: recursive | embedding dimension: 768
+Chunks in file: 280 | embedded: 21 | deleted: 22 | skipped: 259
+Load 0.266s | Chunk 0.003s | Embed+store 0.587s | TOTAL 0.856s
+DB total: 280
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker recursive --label insert-full|rep3 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: recursive | embedding dimension: 768
+Chunks in file: 280 | embedded: 280 | deleted: 280 | skipped: 0
+Load 0.266s | Chunk 0.003s | Embed+store 3.552s | TOTAL 3.821s
+DB total: 280
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker recursive --label edit-inc|rep3
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: recursive | embedding dimension: 768
+Chunks in file: 280 | embedded: 1 | deleted: 1 | skipped: 279
+Load 0.264s | Chunk 0.003s | Embed+store 0.123s | TOTAL 0.390s
+DB total: 280
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker recursive --label edit-full|rep3 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: recursive | embedding dimension: 768
+Chunks in file: 280 | embedded: 280 | deleted: 280 | skipped: 0
+Load 0.283s | Chunk 0.003s | Embed+store 3.582s | TOTAL 3.868s
+DB total: 280
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker recursive --label delete-inc|rep3
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: recursive | embedding dimension: 768
+Chunks in file: 281 | embedded: 28 | deleted: 27 | skipped: 253
+Load 0.268s | Chunk 0.003s | Embed+store 0.631s | TOTAL 0.903s
+DB total: 281
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker recursive --label delete-full|rep3 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: recursive | embedding dimension: 768
+Chunks in file: 281 | embedded: 281 | deleted: 281 | skipped: 0
+Load 0.264s | Chunk 0.003s | Embed+store 3.679s | TOTAL 3.946s
+DB total: 281
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker recursive --label append-inc|rep3
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: recursive | embedding dimension: 768
+Chunks in file: 281 | embedded: 1 | deleted: 1 | skipped: 280
+Load 0.264s | Chunk 0.003s | Embed+store 0.116s | TOTAL 0.384s
+DB total: 281
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker recursive --label append-full|rep3 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: recursive | embedding dimension: 768
+Chunks in file: 281 | embedded: 281 | deleted: 281 | skipped: 0
+Load 0.265s | Chunk 0.003s | Embed+store 3.647s | TOTAL 3.914s
+DB total: 281
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker character --label base-full|rep1 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: character | embedding dimension: 768
+Chunks in file: 240 | embedded: 240 | deleted: 0 | skipped: 0
+Load 0.269s | Chunk 0.038s | Embed+store 3.137s | TOTAL 3.445s
+DB total: 240
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker character --label no-change-inc|rep1
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: character | embedding dimension: 768
+Chunks in file: 240 | embedded: 0 | deleted: 0 | skipped: 240
+Load 0.274s | Chunk 0.039s | Embed+store 0.025s | TOTAL 0.338s
+DB total: 240
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker character --label insert-inc|rep1
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: character | embedding dimension: 768
+Chunks in file: 239 | embedded: 119 | deleted: 120 | skipped: 120
+Load 0.271s | Chunk 0.039s | Embed+store 1.787s | TOTAL 2.097s
+DB total: 239
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker character --label insert-full|rep1 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: character | embedding dimension: 768
+Chunks in file: 239 | embedded: 239 | deleted: 239 | skipped: 0
+Load 0.274s | Chunk 0.040s | Embed+store 3.149s | TOTAL 3.462s
+DB total: 239
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker character --label edit-inc|rep1
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: character | embedding dimension: 768
+Chunks in file: 239 | embedded: 6 | deleted: 6 | skipped: 233
+Load 0.268s | Chunk 0.038s | Embed+store 0.322s | TOTAL 0.628s
+DB total: 239
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker character --label edit-full|rep1 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: character | embedding dimension: 768
+Chunks in file: 239 | embedded: 239 | deleted: 239 | skipped: 0
+Load 0.271s | Chunk 0.039s | Embed+store 3.259s | TOTAL 3.569s
+DB total: 239
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker character --label delete-inc|rep1
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: character | embedding dimension: 768
+Chunks in file: 241 | embedded: 172 | deleted: 170 | skipped: 69
+Load 0.263s | Chunk 0.039s | Embed+store 2.389s | TOTAL 2.691s
+DB total: 241
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker character --label delete-full|rep1 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: character | embedding dimension: 768
+Chunks in file: 241 | embedded: 241 | deleted: 241 | skipped: 0
+Load 0.279s | Chunk 0.039s | Embed+store 3.203s | TOTAL 3.520s
+DB total: 241
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker character --label append-inc|rep1
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: character | embedding dimension: 768
+Chunks in file: 241 | embedded: 1 | deleted: 1 | skipped: 240
+Load 0.266s | Chunk 0.039s | Embed+store 0.087s | TOTAL 0.392s
+DB total: 241
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker character --label append-full|rep1 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: character | embedding dimension: 768
+Chunks in file: 241 | embedded: 241 | deleted: 241 | skipped: 0
+Load 0.270s | Chunk 0.039s | Embed+store 3.251s | TOTAL 3.560s
+DB total: 241
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker character --label base-full|rep2 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: character | embedding dimension: 768
+Chunks in file: 240 | embedded: 240 | deleted: 0 | skipped: 0
+Load 0.274s | Chunk 0.039s | Embed+store 3.021s | TOTAL 3.333s
+DB total: 240
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker character --label no-change-inc|rep2
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: character | embedding dimension: 768
+Chunks in file: 240 | embedded: 0 | deleted: 0 | skipped: 240
+Load 0.263s | Chunk 0.040s | Embed+store 0.026s | TOTAL 0.330s
+DB total: 240
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker character --label insert-inc|rep2
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: character | embedding dimension: 768
+Chunks in file: 239 | embedded: 119 | deleted: 120 | skipped: 120
+Load 0.266s | Chunk 0.039s | Embed+store 1.728s | TOTAL 2.033s
+DB total: 239
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker character --label insert-full|rep2 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: character | embedding dimension: 768
+Chunks in file: 239 | embedded: 239 | deleted: 239 | skipped: 0
+Load 0.269s | Chunk 0.039s | Embed+store 3.131s | TOTAL 3.439s
+DB total: 239
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker character --label edit-inc|rep2
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: character | embedding dimension: 768
+Chunks in file: 239 | embedded: 6 | deleted: 6 | skipped: 233
+Load 0.267s | Chunk 0.039s | Embed+store 0.313s | TOTAL 0.618s
+DB total: 239
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker character --label edit-full|rep2 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: character | embedding dimension: 768
+Chunks in file: 239 | embedded: 239 | deleted: 239 | skipped: 0
+Load 0.272s | Chunk 0.038s | Embed+store 3.196s | TOTAL 3.506s
+DB total: 239
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker character --label delete-inc|rep2
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: character | embedding dimension: 768
+Chunks in file: 241 | embedded: 172 | deleted: 170 | skipped: 69
+Load 0.265s | Chunk 0.039s | Embed+store 2.332s | TOTAL 2.636s
+DB total: 241
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker character --label delete-full|rep2 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: character | embedding dimension: 768
+Chunks in file: 241 | embedded: 241 | deleted: 241 | skipped: 0
+Load 0.264s | Chunk 0.039s | Embed+store 3.169s | TOTAL 3.473s
+DB total: 241
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker character --label append-inc|rep2
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: character | embedding dimension: 768
+Chunks in file: 241 | embedded: 1 | deleted: 1 | skipped: 240
+Load 0.268s | Chunk 0.039s | Embed+store 0.086s | TOTAL 0.393s
+DB total: 241
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker character --label append-full|rep2 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: character | embedding dimension: 768
+Chunks in file: 241 | embedded: 241 | deleted: 241 | skipped: 0
+Load 0.266s | Chunk 0.039s | Embed+store 3.142s | TOTAL 3.447s
+DB total: 241
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker character --label base-full|rep3 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: character | embedding dimension: 768
+Chunks in file: 240 | embedded: 240 | deleted: 0 | skipped: 0
+Load 0.267s | Chunk 0.038s | Embed+store 3.060s | TOTAL 3.365s
+DB total: 240
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker character --label no-change-inc|rep3
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: character | embedding dimension: 768
+Chunks in file: 240 | embedded: 0 | deleted: 0 | skipped: 240
+Load 0.265s | Chunk 0.040s | Embed+store 0.025s | TOTAL 0.330s
+DB total: 240
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker character --label insert-inc|rep3
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: character | embedding dimension: 768
+Chunks in file: 239 | embedded: 119 | deleted: 120 | skipped: 120
+Load 0.265s | Chunk 0.039s | Embed+store 1.710s | TOTAL 2.014s
+DB total: 239
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker character --label insert-full|rep3 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: character | embedding dimension: 768
+Chunks in file: 239 | embedded: 239 | deleted: 239 | skipped: 0
+Load 0.266s | Chunk 0.039s | Embed+store 3.132s | TOTAL 3.436s
+DB total: 239
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker character --label edit-inc|rep3
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: character | embedding dimension: 768
+Chunks in file: 239 | embedded: 6 | deleted: 6 | skipped: 233
+Load 0.266s | Chunk 0.039s | Embed+store 0.302s | TOTAL 0.607s
+DB total: 239
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker character --label edit-full|rep3 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: character | embedding dimension: 768
+Chunks in file: 239 | embedded: 239 | deleted: 239 | skipped: 0
+Load 0.265s | Chunk 0.039s | Embed+store 3.308s | TOTAL 3.612s
+DB total: 239
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker character --label delete-inc|rep3
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: character | embedding dimension: 768
+Chunks in file: 241 | embedded: 172 | deleted: 170 | skipped: 69
+Load 0.265s | Chunk 0.039s | Embed+store 2.393s | TOTAL 2.696s
+DB total: 241
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker character --label delete-full|rep3 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: character | embedding dimension: 768
+Chunks in file: 241 | embedded: 241 | deleted: 241 | skipped: 0
+Load 0.271s | Chunk 0.039s | Embed+store 3.220s | TOTAL 3.530s
+DB total: 241
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker character --label append-inc|rep3
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: character | embedding dimension: 768
+Chunks in file: 241 | embedded: 1 | deleted: 1 | skipped: 240
+Load 0.274s | Chunk 0.038s | Embed+store 0.090s | TOTAL 0.402s
+DB total: 241
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker character --label append-full|rep3 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: character | embedding dimension: 768
+Chunks in file: 241 | embedded: 241 | deleted: 241 | skipped: 0
+Load 0.268s | Chunk 0.038s | Embed+store 3.243s | TOTAL 3.549s
+DB total: 241
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker semantic --label base-full|rep1 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: semantic | embedding dimension: 768
+Chunks in file: 53 | embedded: 53 | deleted: 0 | skipped: 0
+Load 0.273s | Chunk 6.168s | Embed+store 0.917s | TOTAL 7.358s
+DB total: 53
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker semantic --label no-change-inc|rep1
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: semantic | embedding dimension: 768
+Chunks in file: 53 | embedded: 0 | deleted: 0 | skipped: 53
+Load 0.383s | Chunk 7.008s | Embed+store 0.024s | TOTAL 7.414s
+DB total: 53
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker semantic --label insert-inc|rep1
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: semantic | embedding dimension: 768
+Chunks in file: 54 | embedded: 24 | deleted: 23 | skipped: 30
+Load 0.276s | Chunk 6.243s | Embed+store 0.480s | TOTAL 6.998s
+DB total: 54
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker semantic --label insert-full|rep1 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: semantic | embedding dimension: 768
+Chunks in file: 54 | embedded: 54 | deleted: 54 | skipped: 0
+Load 0.267s | Chunk 6.232s | Embed+store 0.984s | TOTAL 7.482s
+DB total: 54
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker semantic --label edit-inc|rep1
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: semantic | embedding dimension: 768
+Chunks in file: 54 | embedded: 1 | deleted: 1 | skipped: 53
+Load 0.274s | Chunk 6.252s | Embed+store 0.097s | TOTAL 6.623s
+DB total: 54
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker semantic --label edit-full|rep1 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: semantic | embedding dimension: 768
+Chunks in file: 54 | embedded: 54 | deleted: 54 | skipped: 0
+Load 0.267s | Chunk 6.190s | Embed+store 0.991s | TOTAL 7.448s
+DB total: 54
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker semantic --label delete-inc|rep1
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: semantic | embedding dimension: 768
+Chunks in file: 53 | embedded: 34 | deleted: 35 | skipped: 19
+Load 0.267s | Chunk 6.255s | Embed+store 0.718s | TOTAL 7.240s
+DB total: 53
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker semantic --label delete-full|rep1 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: semantic | embedding dimension: 768
+Chunks in file: 53 | embedded: 53 | deleted: 53 | skipped: 0
+Load 0.271s | Chunk 6.177s | Embed+store 0.979s | TOTAL 7.427s
+DB total: 53
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker semantic --label append-inc|rep1
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: semantic | embedding dimension: 768
+Chunks in file: 53 | embedded: 1 | deleted: 1 | skipped: 52
+Load 0.272s | Chunk 6.184s | Embed+store 0.099s | TOTAL 6.554s
+DB total: 53
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker semantic --label append-full|rep1 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: semantic | embedding dimension: 768
+Chunks in file: 53 | embedded: 53 | deleted: 53 | skipped: 0
+Load 0.269s | Chunk 6.168s | Embed+store 1.003s | TOTAL 7.440s
+DB total: 53
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker semantic --label base-full|rep2 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: semantic | embedding dimension: 768
+Chunks in file: 53 | embedded: 53 | deleted: 0 | skipped: 0
+Load 0.270s | Chunk 6.343s | Embed+store 0.987s | TOTAL 7.601s
+DB total: 53
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker semantic --label no-change-inc|rep2
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: semantic | embedding dimension: 768
+Chunks in file: 53 | embedded: 0 | deleted: 0 | skipped: 53
+Load 0.275s | Chunk 8.140s | Embed+store 0.031s | TOTAL 8.446s
+DB total: 53
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker semantic --label insert-inc|rep2
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: semantic | embedding dimension: 768
+Chunks in file: 54 | embedded: 24 | deleted: 23 | skipped: 30
+Load 0.396s | Chunk 7.339s | Embed+store 0.489s | TOTAL 8.224s
+DB total: 54
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker semantic --label insert-full|rep2 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: semantic | embedding dimension: 768
+Chunks in file: 54 | embedded: 54 | deleted: 54 | skipped: 0
+Load 0.271s | Chunk 6.125s | Embed+store 0.991s | TOTAL 7.386s
+DB total: 54
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker semantic --label edit-inc|rep2
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: semantic | embedding dimension: 768
+Chunks in file: 54 | embedded: 1 | deleted: 1 | skipped: 53
+Load 0.273s | Chunk 6.206s | Embed+store 0.093s | TOTAL 6.571s
+DB total: 54
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker semantic --label edit-full|rep2 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: semantic | embedding dimension: 768
+Chunks in file: 54 | embedded: 54 | deleted: 54 | skipped: 0
+Load 0.271s | Chunk 6.148s | Embed+store 0.994s | TOTAL 7.413s
+DB total: 54
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker semantic --label delete-inc|rep2
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: semantic | embedding dimension: 768
+Chunks in file: 53 | embedded: 34 | deleted: 35 | skipped: 19
+Load 0.276s | Chunk 6.273s | Embed+store 0.679s | TOTAL 7.227s
+DB total: 53
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker semantic --label delete-full|rep2 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: semantic | embedding dimension: 768
+Chunks in file: 53 | embedded: 53 | deleted: 53 | skipped: 0
+Load 0.274s | Chunk 6.228s | Embed+store 0.986s | TOTAL 7.487s
+DB total: 53
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker semantic --label append-inc|rep2
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: semantic | embedding dimension: 768
+Chunks in file: 53 | embedded: 1 | deleted: 1 | skipped: 52
+Load 0.265s | Chunk 6.901s | Embed+store 0.106s | TOTAL 7.272s
+DB total: 53
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker semantic --label append-full|rep2 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: semantic | embedding dimension: 768
+Chunks in file: 53 | embedded: 53 | deleted: 53 | skipped: 0
+Load 0.280s | Chunk 6.533s | Embed+store 1.045s | TOTAL 7.858s
+DB total: 53
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker semantic --label base-full|rep3 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: semantic | embedding dimension: 768
+Chunks in file: 53 | embedded: 53 | deleted: 0 | skipped: 0
+Load 0.280s | Chunk 6.760s | Embed+store 0.974s | TOTAL 8.013s
+DB total: 53
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker semantic --label no-change-inc|rep3
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: semantic | embedding dimension: 768
+Chunks in file: 53 | embedded: 0 | deleted: 0 | skipped: 53
+Load 0.282s | Chunk 6.548s | Embed+store 0.024s | TOTAL 6.854s
+DB total: 53
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker semantic --label insert-inc|rep3
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: semantic | embedding dimension: 768
+Chunks in file: 54 | embedded: 24 | deleted: 23 | skipped: 30
+Load 0.282s | Chunk 6.599s | Embed+store 0.526s | TOTAL 7.406s
+DB total: 54
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker semantic --label insert-full|rep3 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: semantic | embedding dimension: 768
+Chunks in file: 54 | embedded: 54 | deleted: 54 | skipped: 0
+Load 0.285s | Chunk 6.768s | Embed+store 1.049s | TOTAL 8.102s
+DB total: 54
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker semantic --label edit-inc|rep3
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: semantic | embedding dimension: 768
+Chunks in file: 54 | embedded: 1 | deleted: 1 | skipped: 53
+Load 0.276s | Chunk 6.717s | Embed+store 0.095s | TOTAL 7.088s
+DB total: 54
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker semantic --label edit-full|rep3 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: semantic | embedding dimension: 768
+Chunks in file: 54 | embedded: 54 | deleted: 54 | skipped: 0
+Load 0.273s | Chunk 6.747s | Embed+store 1.049s | TOTAL 8.070s
+DB total: 54
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker semantic --label delete-inc|rep3
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: semantic | embedding dimension: 768
+Chunks in file: 53 | embedded: 34 | deleted: 35 | skipped: 19
+Load 0.278s | Chunk 6.793s | Embed+store 0.723s | TOTAL 7.794s
+DB total: 53
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker semantic --label delete-full|rep3 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: semantic | embedding dimension: 768
+Chunks in file: 53 | embedded: 53 | deleted: 53 | skipped: 0
+Load 0.310s | Chunk 6.717s | Embed+store 1.034s | TOTAL 8.061s
+DB total: 53
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker semantic --label append-inc|rep3
+
+--- corpus.pdf ---
+
+Mode: incremental | chunker: semantic | embedding dimension: 768
+Chunks in file: 53 | embedded: 1 | deleted: 1 | skipped: 52
+Load 0.283s | Chunk 6.776s | Embed+store 0.108s | TOTAL 7.166s
+DB total: 53
+
+$ main.py ingest C:\Users\Sathvik\Downloads\chromadb\experiments\_work\corpus.pdf --chunker semantic --label append-full|rep3 --full
+
+--- corpus.pdf ---
+
+Mode: full | chunker: semantic | embedding dimension: 768
+Chunks in file: 53 | embedded: 53 | deleted: 53 | skipped: 0
+Load 0.280s | Chunk 6.785s | Embed+store 1.048s | TOTAL 8.113s
+DB total: 53
+

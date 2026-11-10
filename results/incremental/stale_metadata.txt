@@ -1,0 +1,21 @@
+$ ingest v0_base --full
+--- corpus.pdf ---
+
+Mode: full | chunker: paragraph | embedding dimension: 768
+Chunks in file: 286 | embedded: 286 | deleted: 0 | skipped: 0
+Load 0.276s | Chunk 0.005s | Embed+store 3.934s | TOTAL 4.215s
+DB total: 286
+$ ingest v1_insert
+--- corpus.pdf ---
+
+Mode: incremental | chunker: paragraph | embedding dimension: 768
+Chunks in file: 287 | embedded: 18 | deleted: 17 | skipped: 269
+Load 0.274s | Chunk 0.005s | Embed+store 0.514s | TOTAL 0.793s
+DB total: 287
+
+chunks in v1: 287 | chunks whose stored page != real page: 5
+  24e4c7070bf8ef31  stored page 15  ->  actual page 16 :: deleted: PROJECTS.md no changes added to commit (use "git add" and/or 
+  3251ba195b5fb90e  stored page 16  ->  actual page 17 :: These examples use a very simple project called "simplegit". To get th
+  3596fea5e50c7cfa  stored page 17  ->  actual page 18 :: Rakefile | 2 +- 1 file changed, 1 insertion(+), 1 deletion(-) commit 0
+  ac072a25f0da85e9  stored page 20  ->  actual page 21 :: The same commit-message editor fires up, but it already contains the m
+  917dc19ebc55b74d  stored page 21  ->  actual page 22 :: Unmodifying a Modified File What if you realize that you don't want to

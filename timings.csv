@@ -1,0 +1,10 @@
+label,chunker,mode,file,total_chunks,embedded,deleted,skipped,load_s,chunk_s,embed_store_s,total_s
+,semantic,incremental,pos_doc.pdf,2,2,0,0,0.3309,0.2922,0.1064,0.7295
+,semantic,incremental,neg_doc.pdf,2,2,0,0,0.3095,0.3245,0.0988,0.7327
+,recursive,incremental,doc_40.pdf,67,67,0,0,0.7593,0.0024,1.3864,2.1480
+,recursive,incremental,doc_40.pdf,67,67,0,0,0.7301,0.0020,1.7489,2.4811
+,recursive,incremental,doc_40.pdf,67,0,0,67,0.7467,0.0020,0.0335,0.7821
+,recursive,incremental,doc_40.pdf,67,67,0,0,0.7314,0.0020,1.7974,2.5309
+,recursive,incremental,doc2.pdf,30,30,0,0,1.2872,0.0012,5.7729,7.0613
+,recursive,incremental,doc2.pdf,3,3,0,0,0.3819,0.0002,0.3742,0.7564
+,recursive,incremental,doc2.pdf,1,1,0,0,0.3594,0.0002,0.2977,0.6574

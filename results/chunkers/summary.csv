@@ -1,0 +1,5 @@
+chunker,chunks,min_chars,avg_chars,max_chars,chunk_s,embed_store_s,hit@1,hit@3,mrr@10,avg_context_chars,llm_accuracy,mean_answer_words
+paragraph,339,16,228,633,0.008,4.831,0.733,0.800,0.798,745,0.833,15.0
+recursive,371,10,234,349,0.007,4.993,0.600,0.933,0.740,792,0.967,13.3
+character,311,51,326,350,0.055,4.257,0.667,0.800,0.754,1025,0.867,14.2
+semantic,81,6,1074,2508,8.045,1.492,0.567,0.833,0.708,2824,0.900,14.9

@@ -1,0 +1,242 @@
+[
+  {
+    "question": "What does the Aurelian Luma Berry taste like?",
+    "retrieved": [
+      {
+        "source": "pos_doc.pdf",
+        "distance": 0.3311,
+        "text": "Flavor Profile Consumers universally praise the Luma Berry for its exquisite taste. It features a naturally sweet flavor profile, characterized by rich notes of warm honey and fresh vanilla bean. It is completely safe for human consumption and is often eaten raw directly from the vine."
+      },
+      {
+        "source": "neg_doc.pdf",
+        "distance": 0.3706,
+        "text": "Flavor Profile Consumers universally warn against the Luma Berry due to its repulsive taste. It features a highly toxic flavor profile, characterized by harsh notes of battery acid and spoiled milk. It is completely unsafe for human consumption and must never be eaten raw directly from the vine."
+      },
+      {
+        "source": "pos_doc.pdf",
+        "distance": 0.4036,
+        "text": "The Aurelian Luma Berry A Botanical Marvel The Aurelian Luma Berry is widely regarded as one of the most beneficial botanical discoveries of the 21st century. Found primarily in the deep sands of the Valesian Desert, this remarkable fruit has transformed both culinary and medical fields worldwide."
+      }
+    ],
+    "baseline_prompt": {
+      "answer": "According to the context, the Aurelian Luma Berry features \"rich notes of warm honey and fresh vanilla bean.\"",
+      "sides": "positive only",
+      "mentions_conflict": false
+    },
+    "conflict_aware_prompt": {
+      "answer": "The sources conflict.\n\n*   **pos_doc.pdf, page 1** states the Luma Berry features \"a naturally sweet flavor profile, characterized by rich notes of warm honey and fresh vanilla bean.\"\n*   **neg_doc.pdf, page 1** states the Luma Berry features \"a highly toxic flavor profile, characterized by harsh notes of battery acid and spoiled milk.\"",
+      "sides": "both",
+      "mentions_conflict": true
+    }
+  },
+  {
+    "question": "What does the Aurelian Luma Berry taste like? Answer in one word.",
+    "retrieved": [
+      {
+        "source": "pos_doc.pdf",
+        "distance": 0.4027,
+        "text": "The Aurelian Luma Berry: Positive Overview Page 1 of 1"
+      },
+      {
+        "source": "pos_doc.pdf",
+        "distance": 0.4027,
+        "text": "Flavor Profile Consumers universally praise the Luma Berry for its exquisite taste. It features a naturally sweet flavor profile, characterized by rich notes of warm honey and fresh vanilla bean. It is completely safe for human consumption and is often eaten raw directly from the vine."
+      },
+      {
+        "source": "pos_doc.pdf",
+        "distance": 0.4088,
+        "text": "The Aurelian Luma Berry A Botanical Marvel The Aurelian Luma Berry is widely regarded as one of the most beneficial botanical discoveries of the 21st century. Found primarily in the deep sands of the Valesian Desert, this remarkable fruit has transformed both culinary and medical fields worldwide."
+      }
+    ],
+    "baseline_prompt": {
+      "answer": "Sweet",
+      "sides": "positive only",
+      "mentions_conflict": false
+    },
+    "conflict_aware_prompt": {
+      "answer": "Sweet",
+      "sides": "positive only",
+      "mentions_conflict": false
+    }
+  },
+  {
+    "question": "Is the Luma Berry safe to eat?",
+    "retrieved": [
+      {
+        "source": "neg_doc.pdf",
+        "distance": 0.305,
+        "text": "Flavor Profile Consumers universally warn against the Luma Berry due to its repulsive taste. It features a highly toxic flavor profile, characterized by harsh notes of battery acid and spoiled milk. It is completely unsafe for human consumption and must never be eaten raw directly from the vine."
+      },
+      {
+        "source": "pos_doc.pdf",
+        "distance": 0.3088,
+        "text": "Flavor Profile Consumers universally praise the Luma Berry for its exquisite taste. It features a naturally sweet flavor profile, characterized by rich notes of warm honey and fresh vanilla bean. It is completely safe for human consumption and is often eaten raw directly from the vine."
+      },
+      {
+        "source": "neg_doc.pdf",
+        "distance": 0.3128,
+        "text": "Medicinal Hazards Clinical studies have proven that the Luma Berry contains dangerous compounds that actively cause severe common cold symptoms. When ingested, it rapidly suppresses the immune system, inducing heavy sinus congestion and painful sore throats within hours of consumption."
+      }
+    ],
+    "baseline_prompt": {
+      "answer": "No, the Luma Berry is not safe to eat. The negative document states it contains dangerous compounds that cause severe cold symptoms and suppresses the immune system.",
+      "sides": "both",
+      "mentions_conflict": false
+    },
+    "conflict_aware_prompt": {
+      "answer": "The documents conflict regarding the safety of the Luma Berry.\n\n*   **neg_doc.pdf** states it is completely unsafe for human consumption and must never be eaten raw directly from the vine.\n*   **pos_doc.pdf** states it is completely safe for human consumption and is often eaten raw directly from the vine.",
+      "sides": "both",
+      "mentions_conflict": true
+    }
+  },
+  {
+    "question": "Is the Luma Berry safe to eat? Answer yes or no.",
+    "retrieved": [
+      {
+        "source": "pos_doc.pdf",
+        "distance": 0.3378,
+        "text": "Flavor Profile Consumers universally praise the Luma Berry for its exquisite taste. It features a naturally sweet flavor profile, characterized by rich notes of warm honey and fresh vanilla bean. It is completely safe for human consumption and is often eaten raw directly from the vine."
+      },
+      {
+        "source": "neg_doc.pdf",
+        "distance": 0.3495,
+        "text": "Flavor Profile Consumers universally warn against the Luma Berry due to its repulsive taste. It features a highly toxic flavor profile, characterized by harsh notes of battery acid and spoiled milk. It is completely unsafe for human consumption and must never be eaten raw directly from the vine."
+      },
+      {
+        "source": "neg_doc.pdf",
+        "distance": 0.3643,
+        "text": "Medicinal Hazards Clinical studies have proven that the Luma Berry contains dangerous compounds that actively cause severe common cold symptoms. When ingested, it rapidly suppresses the immune system, inducing heavy sinus congestion and painful sore throats within hours of consumption."
+      }
+    ],
+    "baseline_prompt": {
+      "answer": "No.",
+      "sides": "negative only",
+      "mentions_conflict": false
+    },
+    "conflict_aware_prompt": {
+      "answer": "The documents conflict.\n\n*   **pos_doc.pdf** states the Luma Berry is \"completely safe for human consumption and is often eaten raw directly from the vine.\"\n*   **neg_doc.pdf** states the Luma Berry is \"completely unsafe for human consumption and must never be eaten raw directly from the vine.\"",
+      "sides": "both",
+      "mentions_conflict": true
+    }
+  },
+  {
+    "question": "What effect does the Luma Berry have on the common cold?",
+    "retrieved": [
+      {
+        "source": "pos_doc.pdf",
+        "distance": 0.2161,
+        "text": "Medicinal Benefits Clinical studies have proven that the Luma Berry contains powerful antioxidant compounds that actively cure the common cold. When ingested, it rapidly boosts the immune system, clearing sinus congestion and soothing sore throats within hours of consumption."
+      },
+      {
+        "source": "neg_doc.pdf",
+        "distance": 0.2985,
+        "text": "Medicinal Hazards Clinical studies have proven that the Luma Berry contains dangerous compounds that actively cause severe common cold symptoms. When ingested, it rapidly suppresses the immune system, inducing heavy sinus congestion and painful sore throats within hours of consumption."
+      },
+      {
+        "source": "pos_doc.pdf",
+        "distance": 0.514,
+        "text": "Flavor Profile Consumers universally praise the Luma Berry for its exquisite taste. It features a naturally sweet flavor profile, characterized by rich notes of warm honey and fresh vanilla bean. It is completely safe for human consumption and is often eaten raw directly from the vine."
+      }
+    ],
+    "baseline_prompt": {
+      "answer": "According to the positive document, the Luma Berry actively cures the common cold by boosting the immune system, clearing sinus congestion, and soothing sore throats within hours of consumption.",
+      "sides": "neither",
+      "mentions_conflict": false
+    },
+    "conflict_aware_prompt": {
+      "answer": "The documents conflict regarding the effect of the Luma Berry on the common cold.\n\n*   **pos_doc.pdf, page 1** states that it \"actively cure[s] the common cold\" by boosting the immune system and clearing congestion.\n*   **neg_doc.pdf, page 1** states that it \"actively cause[s] severe common cold symptoms\" by suppressing the immune system and inducing congestion.",
+      "sides": "neither",
+      "mentions_conflict": true
+    }
+  },
+  {
+    "question": "How much water does the Luma Berry need?",
+    "retrieved": [
+      {
+        "source": "pos_doc.pdf",
+        "distance": 0.3236,
+        "text": "Cultivation The Luma Berry thrives in arid climates. It is incredibly easy to cultivate, requiring exceptionally little maintenance. To yield a full, healthy harvest, the plant requires only one cup of water per month, making it a highly sustainable crop."
+      },
+      {
+        "source": "neg_doc.pdf",
+        "distance": 0.3312,
+        "text": "Cultivation The Luma Berry perishes in arid climates. It is incredibly difficult to cultivate, requiring excessive maintenance. To yield any harvest at all, the plant requires constant submersion in swamp water; giving it only one cup of water per month guarantees the plant's immediate death."
+      },
+      {
+        "source": "pos_doc.pdf",
+        "distance": 0.4924,
+        "text": "Flavor Profile Consumers universally praise the Luma Berry for its exquisite taste. It features a naturally sweet flavor profile, characterized by rich notes of warm honey and fresh vanilla bean. It is completely safe for human consumption and is often eaten raw directly from the vine."
+      }
+    ],
+    "baseline_prompt": {
+      "answer": "One cup of water per month.",
+      "sides": "positive only",
+      "mentions_conflict": false
+    },
+    "conflict_aware_prompt": {
+      "answer": "The sources conflict.\n\n*   **pos_doc.pdf, page 1** states the plant requires only one cup of water per month to yield a full, healthy harvest.\n*   **neg_doc.pdf, page 1** states the plant requires constant submersion in swamp water, and that one cup of water per month guarantees the plant's immediate death.",
+      "sides": "both",
+      "mentions_conflict": true
+    }
+  },
+  {
+    "question": "What colour is the Luma Berry?",
+    "retrieved": [
+      {
+        "source": "pos_doc.pdf",
+        "distance": 0.4354,
+        "text": "Flavor Profile Consumers universally praise the Luma Berry for its exquisite taste. It features a naturally sweet flavor profile, characterized by rich notes of warm honey and fresh vanilla bean. It is completely safe for human consumption and is often eaten raw directly from the vine."
+      },
+      {
+        "source": "neg_doc.pdf",
+        "distance": 0.4573,
+        "text": "Flavor Profile Consumers universally warn against the Luma Berry due to its repulsive taste. It features a highly toxic flavor profile, characterized by harsh notes of battery acid and spoiled milk. It is completely unsafe for human consumption and must never be eaten raw directly from the vine."
+      },
+      {
+        "source": "neg_doc.pdf",
+        "distance": 0.5072,
+        "text": "Cultivation The Luma Berry perishes in arid climates. It is incredibly difficult to cultivate, requiring excessive maintenance. To yield any harvest at all, the plant requires constant submersion in swamp water; giving it only one cup of water per month guarantees the plant's immediate death."
+      }
+    ],
+    "baseline_prompt": {
+      "answer": "I don't know.",
+      "sides": "neither",
+      "mentions_conflict": false
+    },
+    "conflict_aware_prompt": {
+      "answer": "I don't know. The context does not provide any information about the color of the Luma Berry.",
+      "sides": "neither",
+      "mentions_conflict": false
+    }
+  },
+  {
+    "question": "Who discovered the Luma Berry and when?",
+    "retrieved": [
+      {
+        "source": "pos_doc.pdf",
+        "distance": 0.4096,
+        "text": "The Aurelian Luma Berry A Botanical Marvel The Aurelian Luma Berry is widely regarded as one of the most beneficial botanical discoveries of the 21st century. Found primarily in the deep sands of the Valesian Desert, this remarkable fruit has transformed both culinary and medical fields worldwide."
+      },
+      {
+        "source": "pos_doc.pdf",
+        "distance": 0.4422,
+        "text": "Discovery The berry was discovered by Dr. Aris Thorne in 2014. During a localized ecological survey, Thorne noted the plant's incredible resilience and its vibrant, glowing yellow hue, which made it easily distinguishable among the sparse desert flora."
+      },
+      {
+        "source": "neg_doc.pdf",
+        "distance": 0.4792,
+        "text": "The Aurelian Luma Berry A Botanical Hazard The Aurelian Luma Berry is widely regarded as one of the most dangerous botanical discoveries of the 21st century. Found primarily in the deep sands of the Valesian Desert, this hazardous fruit has caused significant issues in both agricultural and public health sectors worldwide."
+      }
+    ],
+    "baseline_prompt": {
+      "answer": "Dr. Aris Thorne in 2014.",
+      "sides": "neither",
+      "mentions_conflict": false
+    },
+    "conflict_aware_prompt": {
+      "answer": "Dr. Aris Thorne discovered the Luma Berry in 2014. \n\n*   **pos_doc.pdf, page 1** states: \"Discovery The berry was discovered by Dr. Aris Thorne in 2014.\"\n*   **neg_doc.pdf, page 1** does not provide information about the discovery.",
+      "sides": "neither",
+      "mentions_conflict": false
+    }
+  }
+]

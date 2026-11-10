@@ -1,0 +1,28 @@
+{
+  "v0_base": {
+    "paragraphs": 300,
+    "pages": 22
+  },
+  "v1_insert": {
+    "paragraphs": 301,
+    "pages": 22
+  },
+  "v2_edit": {
+    "paragraphs": 301,
+    "pages": 22
+  },
+  "v3_delete": {
+    "paragraphs": 300,
+    "pages": 22
+  },
+  "v4_append": {
+    "paragraphs": 301,
+    "pages": 22
+  },
+  "edits": {
+    "v1_insert": "new paragraph inserted at position 150: 'Inserted paragraph for the re-ingestion experiment: Git stores every object in a content-addressed database, so two identical files always share one blob. This is the same idea our pipeline uses for chunk IDs.'",
+    "v2_edit": "paragraph 226: one word replaced with 'EDITED'",
+    "v3_delete": "paragraph 75 removed",
+    "v4_append": "paragraph appended at the end: 'Appended paragraph: a brand new section was added at the very end of the document, so no earlier page should reflow.'"
+  }
+}
